@@ -1,0 +1,2913 @@
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1;mode=block
+Content-Length: 141942
+Expires: Thu, 25 Aug 2016 16:22:27 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 25 Aug 2016 16:22:27 GMT
+Connection: close
+Set-Cookie: selectedsymboltype=GOOGL,CLASS A COMMON STOCK,NASDAQ-GS; domain=.nasdaq.com; expires=Fri, 25-Aug-2017 16:22:27 GMT; path=/
+Set-Cookie: selectedsymbolindustry=GOOGL,technology; domain=.nasdaq.com; expires=Fri, 25-Aug-2017 16:22:27 GMT; path=/
+Set-Cookie: NSC_W.TJUFEFGFOEFS.OBTEBR.80=ffffffffc3a08e3145525d5f4f58455e445a4a423660;expires=Thu, 25-Aug-2016 16:32:27 GMT;path=/;httponly
+
+
+<!doctype html>
+<html lang="en-us" class="wide no-js quotes-responsive real-time" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+<!-- includes\1-column-quotes-no-right-1280.master -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+<meta name="viewport" content="width=device-width" />
+
+<!-- START page level head content -->
+<title>Alphabet Inc. Class A Common Stock (GOOGL) Real-Time Stock Quote - NASDAQ.com</title>
+<!-- aspx/NasdaqLastSale.aspx -->
+<link rel="canonical" href="http://www.nasdaq.com/symbol/googl/real-time" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.nasdaq.com/symbol/googl/real-time" />
+<link rel="alternate" href="http://www.nasdaq.com/es/symbol/googl/real-time" hreflang="es-es" />
+<link rel="alternate" href="http://www.nasdaq.com/it/symbol/googl/real-time" hreflang="it-it" />
+<link rel="alternate" href="http://www.nasdaq.com/de/symbol/googl/real-time" hreflang="de-de" />
+<link rel="alternate" href="http://www.nasdaq.com/zh/symbol/googl/real-time" hreflang="zh-cn" />
+<link rel="alternate" href="http://www.nasdaq.com/fr/symbol/googl/real-time" hreflang="fr-fr" />
+<link rel="alternate" href="http://www.nasdaq.com/symbol/googl/real-time" hreflang="x-default" />
+<meta name="keywords" content="real time Alphabet&#32;Inc.&#32;Class&#32;A&#32;Common&#32;Stock stock quote, real time GOOGL stock quote,Alphabet&#32;Inc.&#32;Class&#32;A&#32;Common&#32;Stock last sale,last sale,Alphabet&#32;Inc.&#32;Class&#32;A&#32;Common&#32;Stock real time stock quote,realtime stock quotes,real time stock quotes," />
+<meta name="description" content="GOOGL Real Time Stock Quote - Get Alphabet&#32;Inc.&#32;Class&#32;A&#32;Common&#32;Stock (GOOGL) last sale data in real-time at NASDAQ.com." />
+<meta name="Robots" content="index,follow" />
+
+
+<script>
+myPage = 'NasdaqLastsale';
+sectionId = 'liQuotes';//section tab
+breadCrumbId = 'qQuotes';//page
+is_dartSite = "quotes";
+is_dartZone = "nls";
+
+propVar = "NLS Pages";
+propVar15 = "Quotes";
+googlechannel = 'NLS';
+googlehints = 'stock market, stock investment, trading account, real time quotes, portfolio tracking, stock charts, options trading, Nasdaq Stocks, Nasdaq Companies, Company Profiles, stock research, shares outstanding, stock Dividends, Stock trading, online stock, stock price, stock symbol, common stock, stock analysis, Options Trading, stock information';
+
+var selected_symbol = "GOOGL";
+
+/*
+SRA ad definitions, this should always correspond with the ad calls on the page
+if an ad is removed from the page, it should be removed from here as well
+*/
+var useSRA = true;
+var premakeAds = [
+/* global site ads */
+{'label':'ad', 'size':'120x60','site':'bookend_left','zone':is_dartZone},//left search ad
+{'label':'ad', 'size':'120x60','site':'Bookend_Left_In','zone':is_dartZone},//left search ad
+{'label':'ad', 'size':'120x60','site':'Bookend_Right','zone':is_dartZone},//right search ad
+{'label':'ad', 'size':'120x60','site':'Bookend_Right_In','zone':is_dartZone},//right search ad
+{'label':'ad', 'size':'728x90,970x90,970x250', 'site':is_dartSite, 'zone':is_dartZone},//leaderboard ad
+/*quote page ads*/
+{'label':'ad', 'size':'120x60', 'site':'box_button', 'zone':is_dartZone},//
+{'label':'ad', 'size':'120x60', 'site':'leftnav_top', 'zone':is_dartZone},//
+{'label':'ad', 'size':'980x20', 'site':is_dartSite, 'zone':is_dartZone},//
+{'label':'ad', 'size':'980x20', 'site':'mop', 'zone':is_dartZone},//
+{'label':'ad', 'size':'88x31', 'site':is_dartSite, 'zone':is_dartZone},//
+{'label':'condition','expression':selected_symbol != "VNTH" && selected_symbol != "NDAQ" && selected_symbol != "GLRI",//right side 300x250
+	'true': {'label':'condition','expression': 'adRotatorRandom', 'frequency':50,'randIndex':0,
+		'true': {'label':'condition','expression': selected_symbol != "QQQE",
+			'true': {'label':'ad', 'size': '300x250,300x600','site': is_dartSite, 'zone':is_dartZone},
+			'false': {'label':'ad', 'size': '300x250,300x600','site': 'quotes', 'zone':'drxticker_qe'}
+		},
+		'false': {'label':'ad', 'size': '300x250,300x600','site': 'quotes', 'zone':'nls'}
+	}
+},
+{'label':'ad', 'size':'300x250,300x600','site':'mop','zone':is_dartZone},//right side dianomi
+{'label':'ad', 'size':'120x60','site':'newsbox','zone':is_dartZone},//
+{'label':'ad', 'size': '285x100','site': 'home','zone': 'cme'},//CME
+{'label':'condition', 'expression':selected_symbol != "VNTH",//right side BTF
+	'true': {'label':'ad', 'size': '300x250,300x600','site': 'btf', 'zone':is_dartZone}
+}
+];
+</script>
+
+<!-- END page level head content -->
+
+
+<!--********************************* BEGIN includes/global-references.inc **************************-->
+<!-- global stylesheets -->
+<link rel="stylesheet" type="text/css" href="http://www.nasdaq.com/includes/global.min-07212016v1.css" />
+<!--[if lt IE 9]>
+<script src="http://www.nasdaq.com/includes/html5shiv-printshiv.js"></script>
+<link rel="stylesheet" type="text/css" href="http://www.nasdaq.com/includes/global-ie8.min-11212015v1.css" />
+<![endif]-->
+
+<!-- favicon and shortcut icons -->
+<link rel="apple-touch-icon" href="http://www.nasdaq.com/images/Q_apple.png"/>
+<link rel="shortcut icon" href="http://www.nasdaq.com/images/qfav.ico" type="image/ico" />
+<link rel="icon" href="http://www.nasdaq.com/images/qfav.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="http://www.nasdaq.com/images/qfav.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="http://cdn.ideamelt.com/1.5/css/ideamelt.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+<!-- scripts -->
+
+<!-- district M -->
+<script type="text/javascript" src="//hi.districtm.ca/v3.0.103185.js"></script>
+<script type="text/javascript" src="//hi.districtm.ca/currency.js"></script>
+<script type="text/javascript" src="//cdn.districtm.ca/v4.0.header.min.js"></script>
+
+<script src="http://www.nasdaq.com/dynamic_includes/marketstatus.js"></script>
+<script src="http://www.nasdaq.com/aspx/marketstatus.aspx"></script>
+<script type="text/javascript" src="//ox-d.nasdaq.servedbyopenx.com/w/1.0/jstag?nc=3244-NASDAQ"></script>
+<script src="http://www.nasdaq.com/includes/jquery.min.js"></script>
+<script src="http://www.nasdaq.com/includes/global.min-08112016v1.js"></script>
+<script>window.Headertag_defer_queue = [];</script>
+<script src="http://js.indexww.com/ht/headertag-nasdaq.js"></script>
+
+<!-- the dynamic css container -->
+<style type="text/css" title="dynamic"></style>
+<script type="text/javascript">
+//<![CDATA[
+updateSiteTheme();
+nasdaqIndexRow.init("NasdaqDjiaspx");
+//]]>
+</script>
+<script type='text/javascript' src='//rndntpmgnj-a.akamaihd.net/NA2L50A6M.js' async></script>
+<!--********************************* END includes/global-references.inc **************************-->
+
+<!-- Begin includes/head-quotes-content.inc -->
+<link rel="stylesheet" type="text/css" href="http://www.nasdaq.com/includes/quotenav-with-quotebar.min-07072016v2.css" />
+
+<script type="text/javascript" src="http://www.nasdaq.com/includes/global-quotes.min-11132015v1.js"></script>
+<!-- End includes/head-quotes-content.inc -->
+
+<script type="text/javascript">
+    var server_time = new Date(1472142147450);
+</script>
+
+
+<!-- START page level style/script -->
+<script type="text/javascript">
+/*
+    myPage = 'NasdaqLastsale';
+    sectionId = 'liQuotes';//section tab
+    breadCrumbId = 'qQuotes';//page
+    is_dartSite = "utilities";
+    is_dartZone = "t1";
+
+    propVar = "NLS Pages";
+    propVar15 = "Quotes";
+    googlechannel = 'NLS';
+    googlehints = 'stock market, stock investment, trading account, real time quotes, portfolio tracking, stock charts, options trading, Nasdaq Stocks, Nasdaq Companies, Company Profiles, stock research, shares outstanding, stock Dividends, Stock trading, online stock, stock price, stock symbol, common stock, stock analysis, Options Trading, stock information';
+*/
+    var mobileModule = createMobileModule("mobileSummaryaccess", "http://m.nasdaq.com/symbol/googl/real-time");
+    mobileModule.checkFullSiteAccess();
+
+
+    //last sale page variables
+
+    //proshares natural gas tickers campaign
+
+    //var selected_symbol = "GOOGL";
+
+	var intlModule = createLocalityModule("intlAccess", window.location.href.replace("nasdaq.com", "nasdaq.com/{0}"), 30, 733);
+	intlModule.checkUSSiteAccess();
+
+	//start egg
+
+	setTimeout(function () {
+	    var a = document.createElement("script");
+	    var b = document.getElementsByTagName("script")[0];
+	    a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/8850.js?" + Math.floor(new Date().getTime() / 3600000);
+	    a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)
+	}, 1);
+
+	// update parameters -->
+	var chartSleepTime = 120; //2 mins
+	var pageSleeptime = (function () {
+	    var today = new Date();
+	    if (today.getDay() == 6 || today.getDay() == 0 || today.getHours() < 9 || today.getHours() > 17) {
+	        return 90; /*Sleep time during non business hours, 90 secs*/
+	    }
+	    else {
+	        return 70; /*Sleep time during business hours, 70 secs */
+	    }
+	})();
+
+	$(document).ready(function () {
+	    setInterval("nasdaqRealTimePage.updateQuoteData()", pageSleeptime * 1000);
+	});
+
+	//high chart begin
+
+	var highchartScriptLoaded = $.Deferred();
+	var chartScriptLoaded = $.Deferred();
+
+	function highChartsLoaded() { highchartScriptLoaded.resolve() };
+
+	function realTimeChartInit() {
+	    nasdaqHighChart.getChartData();
+	    setInterval("nasdaqHighChart.updateChart()", chartSleepTime * 1000);
+	}
+
+	$.when(highchartScriptLoaded, chartScriptLoaded).then(function (value) {
+	    realTimeChartInit();
+	});
+
+	addScriptList([{ "url": "http://www.nasdaq.com/includes/highcharts/highstock2.js", "async": true },
+        { "url": "http://www.nasdaq.com/includes/highcharts/highcharts-more.js", "async": true, "callback": "highChartsLoaded()" }]);
+
+	//high chart end
+
+	//refresh the page, track the event in omniture
+	function refresh() {
+	    triggerAsyncOmnitureClickEvent('quotes:refresh:real-time');
+	    window.location.reload();
+	}
+</script>
+<!--end egg -->
+<style type="text/css">
+.indexWidgetClosed, .indexWidgetOpen {
+    font-weight: normal
+}
+.indexWidgetClosed div, .indexWidgetOpen div {
+    display: inline;
+    padding: 0 3px
+}
+</style>
+<!-- END page level style/script -->
+
+
+<style type="text/css">
+#container.wrap {background-color:#ffffff}
+#panel_left {float:left}
+</style>
+</head>
+
+<body id="body">
+<script src="http://www.nasdaq.com/includes/advertisement.js"></script>
+<script type="text/javascript">checkABDetected();</script>
+
+<!--[if IE 8]> <script src="http://www.nasdaq.com/includes/respond.js"></script> <![endif]-->
+<!--[if IE 7]> <script src="http://www.nasdaq.com/includes/zindex.js"></script> <![endif]-->
+
+	
+
+    <!--*************************************** BEGIN includes/global-masthead.inc ****************************************-->
+
+<header id="global_header" data-role="header">
+	<!--// Begin Hot Topics -->
+    <div id="hot_topics">
+        <div><span>Hot Topics:</span></div>
+        <a href="http://www.nasdaq.com/etfs" onclick="triggerAsyncOmnitureClickEvent('nav:hot-topics:ETFs')">ETFs</a> <span>|</span>
+        <a href="http://www.nasdaq.com/personal-finance/retirement.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:hot-topics:Retirement')">Retirement</a> <span>|</span>
+        <a href="http://www.nasdaq.com/forex/" onclick="triggerAsyncOmnitureClickEvent('nav:hot-topics:Currencies')">Currencies</a> <span>|</span>
+        <a href="http://www.nasdaq.com/investing/online-brokers/" onclick="triggerAsyncOmnitureClickEvent('nav:hot-topics:Broker')">Online Broker Center</a>
+    </div>
+	<!--// End Hot Topics -->
+    <nav id="global_nav">
+        <div id="header_wrap">
+            <div class="logo">
+                <a href="http://www.nasdaq.com/" target="_self" onclick="triggerAsyncOmnitureClickEvent('nav:links:homepage')">
+                    <span></span>
+                </a>
+            </div>
+            <div id="nasdaq_login">
+                <div id="nWelcome" class="floatR">
+                &nbsp;
+                </div>
+                <!--// Begin notifier placeholder -->
+                <div id="global_notifier" class="floatR">
+					<div class='ideaMelt' melt-notifier></div>
+				</div>
+                <!--// End notifier placeholder -->
+            </div>
+        </div>
+        <div class="clearB"></div>
+        <ul class="js-nav-toggle primary" id="js-nav-toggle">
+            <li id="site-nav-company">
+                <a href="http://business.nasdaq.com" data-click-event="nav:company:company-hub" onclick="triggerAsyncOmnitureClickEvent('nav:company:company-hub')">
+					<span>Our Company</span>
+				</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="company-drop">
+                            <li>
+                                <a href="http://business.nasdaq.com/tech" onclick="triggerAsyncOmnitureClickEvent('nav:company:tech')">
+								  <span>
+                                    <strong>Tech</strong>
+                                  </span>
+                                </a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/tech" onclick="triggerAsyncOmnitureClickEvent('nav:company:tech')">
+									Differentiate With <br />Technology
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://business.nasdaq.com/trade" onclick="triggerAsyncOmnitureClickEvent('nav:company:trade')">
+								  <span>
+                                    <strong>Trade</strong>
+                                  </span>
+                                </a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/trade" onclick="triggerAsyncOmnitureClickEvent('nav:company:trade')">
+                                    Trade Multiple <br />Asset Classes
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://business.nasdaq.com/track" onclick="triggerAsyncOmnitureClickEvent('nav:company:track')">
+								<span>
+                                  <strong>Track</strong>
+                                </span>
+                                </a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/track" onclick="triggerAsyncOmnitureClickEvent('nav:company:track')">
+                                    Track the Markets
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="displayIB half">
+                        <ul class="company-drop">
+                            <li>
+                                <a href="http://business.nasdaq.com/intel" onclick="triggerAsyncOmnitureClickEvent('nav:company:intel')">
+								  <span>
+                                    <strong>Intel</strong>
+                                  </span>
+								</a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/intel" onclick="triggerAsyncOmnitureClickEvent('nav:company:intel')">
+									Leverage Actionable <br />Intelligence
+								</a>
+                            </li>
+                            <li>
+                                <a href="http://business.nasdaq.com/list" onclick="triggerAsyncOmnitureClickEvent('nav:company:list')">
+								  <span>
+                                    <strong>List</strong>
+                                  </span>
+								</a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/list" onclick="triggerAsyncOmnitureClickEvent('nav:company:list')">
+									Access Capital
+								</a>
+								<div class="clearB"></div>
+                                <a href="https://listingcenter.nasdaq.com/" onclick="triggerAsyncOmnitureClickEvent('nav:company:list')">
+									Listing Center
+								</a>
+                            </li>
+                            <li>
+                                <a href="http://business.nasdaq.com/discover" onclick="triggerAsyncOmnitureClickEvent('nav:company:discover')">
+								  <span>
+                                    <strong>Discover</strong>
+                                  </span>
+								</a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/discover" onclick="triggerAsyncOmnitureClickEvent('nav:company:discover')">
+									Discover Nasdaq
+								</a>
+                            </li>
+                        </ul>
+                    </div>
+					<!--// START includes/main-nav-company-featured.inc -->
+<table>
+  <tbody>
+    <tr>
+      <td valign="top" width="100" class="paddingT5px">
+        <a href="http://www.nasdaqomx.com/aboutus/marketinsite/readpost?contentId=58738&title=2015+CNBC+Disruptor+50" onclick="triggerAsyncOmnitureClickEvent('nav:company:featured')">
+          <img src="http://www.nasdaq.com/images/cnbcdisruptor_100x100v2.png" width="100" height="100" alt="corporate featured" />
+        </a>
+      </td>
+      <td valign="top" class="floatL paddingL15px marginL5px">
+        <a href="http://business.nasdaq.com/CNBC-D50/" onclick="triggerAsyncOmnitureClickEvent('nav:company:featured')">
+          <span>
+            <strong>2016 CNBC Disruptor 50</strong>
+          </span>
+        </a>
+        <div class="clearB"></div>
+        <a href="http://business.nasdaq.com/CNBC-D50/" onclick="triggerAsyncOmnitureClickEvent('nav:company:featured')">
+          Learn more about the CNBC</br> Disruptor 50
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!--// END includes/main-nav-company-featured.inc -->
+                </div>
+            </li>
+            <li id="site-nav-quotes">
+                <a href="http://www.nasdaq.com/quotes" data-click-event="nav:quotes:quotes-hub" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:quotes-hub')">
+					<span>Quotes</span>
+				</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="first-drop">
+                            <li>
+                                <span>
+									<i class="fa fa-suitcase" style="margin-left:-18px"></i>
+									<span>Quotes</span>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:quotes-hub')">Quotes &amp; Research</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/aspx/flashquotes.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:flash-quotes')">Flash Quotes</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/aspx/infoquotes.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:info-quotes')">InfoQuotes</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/stock-quotes.aspx" onclick="handleNQClick(this,'nav:quotes:summary-quotes')">Summary Quotes</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/real-time.aspx" onclick="handleNQClick(this,'nav:quotes:real-time')">Real-time Quotes</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/extended-trading/" onclick="handleNQClick(this,'nav:quotes:extended-trading')">Extended Trading</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/options/" onclick="handleNQClick(this,'nav:quotes:options')">Options Trading Center</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/historical-quotes.aspx" onclick="handleNQClick(this,'nav:quotes:historical-quotes')">Historical Quotes</a>
+                            </li>
+                        </ul>
+                        <ul class="first-drop">
+                            <li>
+                                <span>
+                                  <i class="fa fa-bar-chart-o" style="margin-left:-18px"></i>
+                                  <span>Charts</span>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/stock-charts.aspx" onclick="handleNQClick(this,'nav:quotes:basic-charts')">Basic Charts</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/interactive-charts.aspx" onclick="handleNQClick(this,'nav:quotes:interactive-charts')">Interactive Charts</a>
+                            </li>
+                        </ul>
+                        <ul class="first-drop">
+                            <li>
+                                <span>
+									<i class="fa fa-newspaper-o" style="margin-left:-18px"></i>
+									<span>Companies</span>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/company-news.aspx" onclick="handleNQClick(this,'nav:quotes:news')">Company News</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/press-releases.aspx" onclick="handleNQClick(this,'nav:quotes:press-releases')">Press Releases</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/marketstream/" onclick="handleNQClick(this,'nav:quotes:market-stream')">Market Stream</a>
+                            </li>
+                            <li>
+								<a href="http://www.nasdaq.com/screening/company-list.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:company-list')">Company List</a>
+                            </li>
+                            <li>
+								<a href="http://www.nasdaq.com/screening/companies-by-industry.aspx?exchange=NASDAQ" onclick="handleNQClick(this,'nav:quotes:nasdaq')">Nasdaq Companies</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="first-drop">
+                            <li>
+                                <span>
+									<i class="fa fa-list" style="margin-left:-18px"></i>
+									<span>Stock Analysis</span>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/analyst-research.aspx" onclick="handleNQClick(this,'nav:quotes:analyst-research')">Analyst Research</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/stock-guru-analysis.aspx" onclick="handleNQClick(this,'nav:quotes:guru-analysis')">Guru Analysis</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/stock-reports.aspx" onclick="handleNQClick(this,'nav:quotes:stock-reports')">Stock Reports</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/business-competitors.aspx" onclick="handleNQClick(this,'nav:quotes:competitors')">Competitors</a>
+                            </li>
+                        </ul>
+                        <ul class="first-drop">
+                            <li>
+                                <span>
+									<i class="fa fa-money" style="margin-left:-18px"></i>
+									<span>Fundamentals</span>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/company-financials.aspx" onclick="handleNQClick(this,'nav:quotes:financials')">Financials</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/revenue-eps.aspx" onclick="handleNQClick(this,'nav:quotes:revenue-eps')">Revenue/EPS</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/sec-filings.aspx" onclick="handleNQClick(this,'nav:quotes:sec-filings')">SEC Filings</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/short-interest.aspx" onclick="handleNQClick(this,'nav:quotes:short-interest')">Short Interest</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/dividend-history.aspx" onclick="handleNQClick(this,'nav:quotes:dividend-history')">Dividend History</a>
+                            </li>
+                        </ul>
+                        <ul class="first-drop">
+                            <li>
+                                <span>
+									<i class="fa fa-table" style="margin-left:-18px"></i>
+									<span>Holdings</span>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/ownership.aspx" onclick="handleNQClick(this,'nav:quotes:ownership')">Ownership Summary</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/institutional-holdings.aspx" onclick="handleNQClick(this,'nav:quotes:institutional-holdings')">Institutional Holdings</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/insider-trades.aspx" onclick="handleNQClick(this,'nav:quotes:insider-trades')">Insiders Form 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li id="site-nav-markets">
+                <a href="http://www.nasdaq.com/markets/" data-click-event="nav:markets:markets-hub" onclick="triggerAsyncOmnitureClickEvent('nav:markets:markets-hub')">
+					<span>Markets</span>
+				</a>
+              <div class="global_dropdown">
+                <div class="floatL half">
+                  <ul class="secondary-drop">
+                    <li>
+                      <a href="http://www.nasdaq.com/extended-trading/" onclick="triggerAsyncOmnitureClickEvent('nav:markets:extended')">
+                        <span>Extended Hours</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/extended-trading/premarket-mostactive.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:pre-market')">Pre-Market Activity</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/extended-trading/afterhours-mostactive.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:after-hours')">After Hours Activity</a>
+                    </li>
+                  </ul>
+                  <ul class="secondary-drop">
+                    <li>
+                      <span>Stocks</span>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/aspx/mostactive.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:most-active')">Most Active</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/unusual-volume.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:unusual-volume')">Unusual Volume</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/aspx/52-week-high-low.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:52-week-high-low')">52 Week High/Low</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/upcoming-splits.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:upcoming-splits')">Upcoming Splits</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/sec-filings-n.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:sec-filings')">New SEC Filings</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/ipos" onclick="triggerAsyncOmnitureClickEvent('nav:markets:ipo-summary')">IPO Summary</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/earnings/earnings-calendar.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:earnings-calendar')">Earnings Calendar</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/dividend-stocks/" onclick="triggerAsyncOmnitureClickEvent('nav:markets:dividend-stocks')">Dividend Stocks</a>
+                    </li>
+                  </ul>
+                  <ul class="primary-drop">
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/barchart-sectors.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:sector-analysis')">
+                        <span>Sector Analysis</span>
+                      </a>
+                    </li>
+                   </ul>
+                </div>
+                <div class="floatR half">
+                  <ul class="secondary-drop">
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/commodities.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:commodities')">
+                        <span>Commodities</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/gold.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:gold')">Gold</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/crude-oil.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:crude-oil')">Oil</a>
+                    </li>
+                  </ul>
+                  <ul class="secondary-drop">
+                    <li>
+                      <span>Analyst Activity</span>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/earnings/daily-analyst-recommendations.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:upgrades-downgrades')">Upgrades/Downgrades</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/earnings/analyst-forecast-change.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:analyst-forecast-change')">Forecast Changes</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/earnings/daily-earnings-surprise.aspx" class="a-mega" onclick="triggerAsyncOmnitureClickEvent('nav:markets:daily-earnings-surprise')">Earning Surprises</a>
+                    </li>
+                  </ul>
+                  <ul class="secondary-drop">
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/indices/" onclick="triggerAsyncOmnitureClickEvent('nav:markets:indices')">
+                        <span>Indices</span>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/indices/major-indices.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:market-indices')">Major Stock Indices</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/indices/sector-indices.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:sector-indices')">Market Sector Indices</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/index-highs" onclick="triggerAsyncOmnitureClickEvent('nav:markets:statistical-milestones')">Statistical Milestones</a>
+                    </li>
+                  </ul>
+                  <ul class="primary-drop">
+                    <li>
+                      <a href="http://www.nasdaq.com/markets/global-markets.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:global-markets')">
+                        <span>Global Markets</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li id="site-nav-news">
+                <a href="http://www.nasdaq.com/news/" data-click-event="nav:news:news-hub" onclick="triggerAsyncOmnitureClickEvent('nav:news:news-hub')">
+					<span>News</span>
+				</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="primary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/company-news.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:news:company-news')">
+                                    <span>Company News</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/news/market-headlines.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:news:market-headlines')">
+                                    <span>Market Headlines</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/marketstream/" onclick="triggerAsyncOmnitureClickEvent('nav:news:marketstream')">
+                                    <span>Market Stream</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="primary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/us-economic-calendar.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:news:economic-calendar')">
+                                    <span>Economic Calendar</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/video/video.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:news:video')">
+                                    <span>Business Video</span>
+                                </a>
+                            </li>
+                            <li>
+                              <a href="http://www.nasdaq.com/tech/" onclick="triggerAsyncOmnitureClickEvent('nav:news:technology')">
+                                <span>Technology News</span>
+                              </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearB"></div>
+                    <div class="paddingL10px paddingR10px paddingB10px">
+                        <!-- START includes/main-navigation-featured-video.inc -->
+
+<div class="marginB5px">
+	<h4>Featured Article</h4>
+</div>
+<table>
+	<tr>
+		<td valign="top" width="100">
+			<a href="http://www.nasdaq.com/article/microsoft-gets-office-skype-on-millions-more-android-devices-cm669510" class="floatL paddingT5px">
+				<img src="http://www.nasdaq.com/images/news/0825office.jpg" width="100" height="100" alt="news featured image" />
+			</a>
+		</td>
+		<td valign="top" class="floatL paddingL15px">
+			<a href="http://www.nasdaq.com/article/microsoft-gets-office-skype-on-millions-more-android-devices-cm669510" class="fontS14px">
+			Microsoft Gets Office, Skype on Millions More Android Devices
+			</a>
+			<br />
+			<p>Google has major advantage that MSFT is trying to overcome</p>
+		</td>
+	</tr>
+</table>
+		
+<!-- END includes/main-navigation-featured-video.inc -->
+                    </div>
+                </div>
+            </li>
+            <li id="site-nav-investing">
+                <a href="http://www.nasdaq.com/investing/" data-click-event="nav:investing:investing-hub" onclick="triggerAsyncOmnitureClickEvent('nav:investing:investing-hub')">
+					<span>Investing</span>
+				</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="secondary-drop">
+                            <li>
+								<span>How to Invest</span>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/how-to-invest.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:investing-basics')">Investing Basics</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/online-brokers/" onclick="triggerAsyncOmnitureClickEvent('nav:investing:online-brokers')">Broker Comparison</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/glossary/" onclick="triggerAsyncOmnitureClickEvent('nav:investing:glossary')">Glossary</a>
+                            </li>
+                        </ul>
+                        <ul class="primary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/stocks.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:stocks')">
+                                    <span>Stocks</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/mutual-funds.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:mutual-funds')">
+                                    <span>Mutual Funds</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/tools.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:tools')">
+                                    <span>Investing Tools</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/reference/stock-screener.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:stock-screener')">Stock Screener</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/guru/guru-stock-screener.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:guru-screener')">Guru Screener</a>
+                            </li>
+                            <li>
+                                <a>&nbsp;</a>
+                            </li>
+                        </ul>
+                        <ul class="primary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/advisor/" onclick="triggerAsyncOmnitureClickEvent('nav:investing:advisor')">
+                                    <span>
+                                        Financial Advisor <br />Center
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li id="site-nav-advanced">
+                <a href="http://www.nasdaq.com/investing/advanced-investing.aspx" data-click-event="nav:advanced:advanced-investing" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:advanced-investing')">
+					<span>Advanced Investing</span>
+				</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="primary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/etfs" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:etfs')">
+                                    <span>ETFs</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/forex/" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:forex')">
+                                    <span style="color:#424242;">Forex</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/forex/forex-brokers.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:forex:brokercomparison')">Forex Broker Comparison</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="primary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/wealth-management/" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:wealth-management')">
+                                    <span>Wealth Management</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/options/" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:options')">
+                                    <span>Options</span>
+                                </a>
+                            </li>
+                            <li>
+                              <a href="http://www.nasdaq.com/investing/bonds.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:bonds')">
+                                <span>Bonds</span>
+                              </a>
+                            </li>                          
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li id="site-nav-pf">
+                <a href="http://www.nasdaq.com/personal-finance/" data-click-event="nav:personal-finance:pf-hub" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:pf-hub')">
+					<span>Personal Finance</span>
+				</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="primary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/retirement.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:retirement')">
+                                    <span>Retirement</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/real-estate.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:real-estate')">
+                                    <span>Real Estate</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/banking.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:banking')">
+                                    <span>Banking</span>
+                                </a>
+                            </li>
+                            <li>
+                              <a href="http://www.nasdaq.com/personal-finance/insurance.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:insurance')">
+                                <span>Insurance</span>
+                              </a>
+                            </li>                          
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="primary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/saving-money/" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:saving-money')">
+                                    <span>Saving Money</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/taxes.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:taxes')">
+                                    <span>Taxes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/investments.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:investments')">
+                                    <span>Investments</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/small-business.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:small-business')">
+                                    <span>Small Business</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearB"></div>
+                    <div class="paddingL10px paddingR10px paddingB10px">
+                        <!--// START includes/main-navigation-featured-article.inc -->
+
+<div class="marginB5px">
+	<h4>Featured Article</h4>
+</div>
+<table>
+	<tr>
+<!--
+		<td valign="top" width="355">
+			<a href="https://mh214.isrefer.com/go/NASW/NDQCA/?utm_source=nasdaq-promotion-web&utm_medium=nasdaq-618sandy-website&utm_campaign=nasdaq-618sandy-website" target="_blank" rel="nofollow" class="floatL paddingT5px" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:featured-article')">
+				<img src="http://www.nasdaq.com/images/Webinar_Betner355x100_7202015.jpg" width="355" height="100" border="0" />
+			</a>
+		</td>
+-->
+
+		<td valign="top" width="100">
+			<a href="http://www.nasdaq.com/article/times-its-ok-to-buy-used-instead-of-new-cm669942" class="floatL paddingT5px" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:featured-article')">
+				<img src="http://www.nasdaq.com/images/news/0825used.jpg" width="100" height="100" border="0" />
+			</a>
+		</td>
+		<td valign="top" class="floatL paddingL15px">
+			<a href="http://www.nasdaq.com/article/times-its-ok-to-buy-used-instead-of-new-cm669942" class="fontS14px" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:featured-article')">
+			Times It's OK to Buy Used Instead of New
+			</a>
+			<br />
+			<p>Sometimes new just isn't worth it</p>
+		</td>
+
+	</tr>
+</table>
+		
+<!--// END includes/main-navigation-featured-article.inc -->
+
+                    </div>
+                </div>
+            </li>
+            <li id="site-nav-nasdaq">
+                <a href="http://community.nasdaq.com/" data-click-event="nav:my-nasdaq:my-nasdaq-hub" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:my-nasdaq-hub')">
+					<span>My Nasdaq</span>
+				</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="primary-drop">
+                            <li>
+                                <a href="http://community.nasdaq.com/MyPortfolio.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:my-portfolio')">
+                                    <span>My Portfolio</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://community.nasdaq.com/MyRatings.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:stock-ratings')">
+                                    <span>Stock Ratings</span>
+                                </a>
+                            </li>                          
+                            <li>
+								<div class="clearB padding5px"></div>
+								<span style="color:#424242">Settings</span>
+                            </li>
+                            <li>
+                                <a href="http://community.nasdaq.com/community-settings.aspx?tab=account" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:account')">My Account</a>
+                            </li>
+                            <li>
+                                <a href="http://community.nasdaq.com/community-settings.aspx?tab=profile" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:profile')">Edit Profile</a>
+                            </li>
+                            <li>
+                                <a href="http://community.nasdaq.com/manage-connections.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:connnections')">Connnections</a>
+                            </li>
+                            <li>
+                                <a href="http://community.nasdaq.com/community-settings.aspx?tab=photo" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:photo')">Profile Photo</a>
+                            </li>
+                          <li>
+                            &nbsp;
+                          </li>
+                          <li>
+                            <a href="#stock-searches" title="Configure your experience" class="lightbox-call">
+                              <span aria-hidden="true" data-icon="g" id="search-preferences" class="search-preferences">
+                                Customize Your <br /> Experience
+                              </span>
+                            </a>
+                          </li>                          
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul id="communitynav" class="secondary-drop">
+                            <!-- content gets set dynamically -->
+                            <li class="profile">
+                                <p>Join the NASDAQ Community today and get free, instant access to portfolios, stock ratings, real-time alerts, and more!</p>
+                                <ul>
+                                    <li>
+                                        <a href="http://community.nasdaq.com/" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:register')">
+											<span style="color:#00539B">Join Today</span>
+										</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="floatL">
+                                <div class="marginT10px marginB5px">
+                                    <h4>Already a member?</h4>
+                                </div>
+                                <a href="http://community.nasdaq.com/login.aspx" class="blue-button" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:login')">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+	    </ul>
+    </nav>
+	<div id="global_nav_placeholder"></div>
+    <div class="global_search" id="global_search">
+        <div class="wrapper">
+            <div class="left-ad-unit120">
+                <script type="text/javascript" language="javascript">
+                    makeAd('','120x60','bookend_left',is_dartZone,'','');
+                </script>
+                <script type="text/javascript" language="javascript">
+                    makeAd('','120x60','Bookend_Left_In',is_dartZone,'','');
+                </script>
+            </div>
+            <!--//End 120x60 Ad Unit -->
+            <form method="post" action="/" id="stock-search" class="stock-search" onsubmit="return false;">
+				<div id="stock-search-wrap">
+					<label for="stock-search-text">
+						<input type="text" name="stock-search-text" id="stock-search-text" class="ajax-search" placeholder="Enter symbol, name or keyword" />
+						<button type="submit" id="stock-search-submit"><span>Search</span></button>
+					</label>
+				</div>
+            </form>
+            <script type="text/javascript">
+				if(!isIEBrowser())
+				{
+	                $(function(){
+		                $('#stock-search-text').focus();
+	                });
+				}
+                Nasdaq_Quotesearch.init();
+            </script>
+            <div class="right-ad-unit120">
+                <script type="text/javascript" language="javascript">
+                    makeAd('','120x60','Bookend_Right',is_dartZone,'','');
+                </script>
+                <script type="text/javascript" language="javascript">
+                    makeAd('','120x60','Bookend_Right_In',is_dartZone,'','');
+                </script>
+            </div>
+            <!--//End 120x60 Ad Unit -->
+        </div>
+    </div>
+
+    <div id="global_banner" class="wrapper">
+        <script type="text/javascript" language="JavaScript">
+            makeAd('','728x90,970x90,970x250',is_dartSite,is_dartZone,'','');
+        </script>
+    </div>
+	
+	<script>initNav();</script>
+</header><!--//End global_header-->
+
+<!--*************************************** END includes/global-masthead.inc ******************************************-->
+
+
+<script type="text/javascript">
+    displayLoginStatus(false, null, null, null, "http\x3a\x2f\x2fcommunity.nasdaq.com");
+    $(function(){
+        initFauxFollow(followObjID);
+    });
+</script>
+
+
+<!--
+<div class="marginLAuto marginRAuto marginB15px" style="width:980px">
+<script type="text/javascript">
+	makeAd('8', '980x60', is_dartSite, is_dartZone, '', '');
+</script>
+</div>
+-->
+
+
+	<div id="container" class="wrap cf">
+        <div id="content">
+            <div id="quotes-left-content">
+	            <div class="qbreadcrumb">
+		            <span class="qbreadcrumb">
+                        
+    <span class="floatL">
+        <a href="http://www.nasdaq.com">Home</a><span>&nbsp;&gt;</span>
+        <a href="http://www.nasdaq.com/quotes/">Quotes</a><span>&nbsp;&gt;</span>
+        <a href="http://www.nasdaq.com/symbol/googl">GOOGL</a><span>&nbsp;&gt;</span>
+        <a href="http://www.nasdaq.com/quotes/real-time.aspx">Real Time Quotes</a>
+    </span>
+    <script type="text/javascript" src="http://www.nasdaq.com/aspx/indexrowhtml.aspx?indexname=NASDAQDJIASPXWITHOUTIMAGE"></script>
+    <!--BREADCRUMB-->		
+
+		            </span>
+	            </div>	
+			    
+				<script type="text/javascript">defineABHC('start');</script>
+                
+                
+
+<!--// Begin includes/qwidget.ascx -->
+
+<div class="quotebar-wrap">
+
+<div class="header-wrap">
+    <div class="quote-wrap">
+	    <div class="quote-data-wrap">
+		    <div id="logo-wrap" class="floatL">
+			    
+			    <div class="clearB"></div>
+			    
+					<div id="followButtonNew" class="melt"></div>				    
+				
+		    </div>
+		    <div id="qwidget-quote-wrap">
+			    <div id="qwidget_pageheader"><h1>Alphabet Inc. Class A Common Stock Real Time Stock Quotes</h1> <b></b></div>
+			    <div class="clearB"></div>
+			    <div id="qwidget_quote" class="floatL marginTB5px">
+                    
+			        <div class="qwidget-symbol">GOOGL&nbsp;</div>
+                    
+				    <div id="qwidget_lastsale" class="qwidget-dollar">$792.3</div>
+	                <div class="qwidget-dollar"><div>*&nbsp;&nbsp;</div></div>
+				    <div id="qwidget_netchange" class="qwidget-cents qwidget-Red">1.3</div>
+	                <div id="qwidget-arrow"><div class="marginLR10px arrow-red"></div></div>
+				    <div id="qwidget_percent" class="qwidget-percent qwidget-Red" style="white-space:nowrap">0.16%</div>
+				    <a class="getAlerts" href="javascript:void(0)" onclick="getAlertHandler();"><span>Get GOOGL Alerts</span></a><br />
+			    </div>
+			    <div id="qwidget_markettimedate" class="floatL paddingB15px">
+				    <small>
+				        *Real-Time - data as of <span id="qwidget_markettime">8/25/2016 12:22:27 PM</span>&nbsp;-&nbsp;
+				        <a href="http://www.nasdaq.com/investing/online-brokers/" onclick="triggerAsyncOmnitureClickEvent('quotes:quote-bar:brokers')">
+				            Find a broker to begin trading GOOGL now
+				        </a>
+				    </small>
+			    </div>
+		    </div>
+		    <div id="qwidget-sector-wrap">
+			    <span id="qbar_exchangeLabel"><b>Exchange: </b>NASDAQ</span> <br />
+			    <span id="qbar_sectorLabel"><b>Industry: </b><a href="http://www.nasdaq.com/screening/companies-by-industry.aspx?industry=Technology">Technology</a></span> <br />
+			    <b>Community Rating:</b> <script src="http://www.nasdaq.com/aspx/community/sentiment.aspx?selected=GOOGL&size=small"></script> <br />
+			    
+	
+			    
+				    <b>View:&nbsp;</b>
+				    <span class="displayIB ValignT lightning-icon"></span>&nbsp;
+				    <a title="Alphabet Inc. Real-time Quote" href="http://www.nasdaq.com/symbol/googl/real-time">GOOGL&nbsp;Real Time</a>
+			    
+
+			    
+		    </div>
+		    <div id="qwidget-sector-wrap" class="marginR10px">
+		        <script type="text/javascript">
+                    makeAd('3','120x60','box_button',is_dartZone,'','');
+                    var followObjID = "symbol_02079K305";
+                    var followObjTitle = "Alphabet Inc.";
+                    var followObj = {"object_id":"symbol_02079K305","object_type":"company","title":"Alphabet Inc.","permalink":"http://www.nasdaq.com/symbol/googl","image":null,"data":{"symbol":"GOOGL"}};
+					
+                </script>
+				
+<script>
+var SymbolType = "USEquity";
+var StockIndustry = "Technology";
+</script>
+		    </div>
+	    </div>
+    </div><!--end quote-wrap-->
+</div><!-- end header-wrap -->
+
+</div>
+
+<!--// End includes/qwidget.ascx -->
+
+
+
+                <script type="text/javascript">
+var quoteBoxSelectedSymbol="GOOGL";
+
+var quoteBoxSymbolArray = new Array(1);
+quoteBoxSymbolArray[0] = "GOOGL";
+
+var quoteBoxNumSymbols = 1;
+
+var jsUserAgent = "";
+
+var qbUseNewNav = true;
+</script>
+
+<script type="text/javascript" language="JavaScript"><!--inline script should be added to .inc files if we cannot added to if browser caching is a concern-->
+
+
+    // URL variables
+    var quoteURL = 'http://www.nasdaq.com/';
+    var wwwURL = 'http://www.nasdaq.com/';
+    var earningsURL = 'http://www.nasdaq.com/';
+    var screeningURL = 'http://www.nasdaq.com/';
+    var bLookup = false;
+    var selected = quoteBoxSelectedSymbol;
+
+    if (typeof qbUseNewNav == "undefined")
+        qbUseNewNav = false;
+
+    if (quoteBoxNumSymbols > 13) {
+        addStyle("dynamic", "#quotesnav_symbols_l {display:block;}");//
+        addStyle("dynamic", "#quotesnav_symbols_l_border {display:block;}");//
+    }
+    else {
+        addStyle("dynamic", "#quotesnav_symbols_l {display:none;}");//
+        addStyle("dynamic", "#quotesnav_symbols_l_border {display:none;}");//
+    }
+
+    addStyle("dynamic", "div.qbreadcrumb {left: 0px !important;height:0px;left:0px;top:0px;position:relative;width:800pxfloat:left;}");
+    addStyle("dynamic", "#qtopAd-graybg{float:left;font-size:11px;height:33px;padding:17px 0 0 5px;width:661px;position:relative;}");//
+    addStyle("dynamic", "#qtopAd-graybg-inside, #qtopAd-sponsored{float:left;}");//
+
+    function loginForAlerts() {
+        open_new_window("http://community.nasdaq.com/login.aspx?turl=" + encodeURIComponent("http://www.nasdaq.com/alerts/alertmanager.aspx?symbol=" + quoteBoxSelectedSymbol), 1020, 980, false, true, false);
+    }
+</script>
+
+<div class="symbol">
+    <div id="quotesnav_symbols_wrap" class="floatR">
+        <div id="quotesnav_symbols" class="quotesnav floatR">
+	        <div class="jcarousel-skin-tango">
+		        <div class="jcarousel-container jcarousel-container-horizontal">
+		            <div class="jcarousel-clip jcarousel-clip-horizontal">
+				        <ul class="jcarousel-list jcarousel-list-horizontal" id="mycarousel" style="width:795px">
+<li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-0 jcarousel-item-0-horizontal" jcarouselindex="0"><span><a class="qn_ontab" href="http://www.nasdaq.com/symbol/googl/real-time">GOOGL</a></span></li>
+</ul>
+  			        </div>
+		        </div>
+	        </div>
+        </div>
+
+        <div id="quotesnav_symbols_border" class="quotesnav floatR">&nbsp;</div>
+
+        <div id="quotesnav_symbols_l" class="quotesnav floatR">
+	        <div class="jcarousel-skin-tango">
+		        <div class="jcarousel-container jcarousel-container-horizontal">
+		            <div class="jcarousel-clip jcarousel-clip-horizontal">
+				        <ul class="jcarousel-list jcarousel-list-horizontal" id="mycarousel" style="width:795px">
+</ul>
+  			        </div>
+		        </div>
+	        </div>
+        </div>
+
+        <div id="quotesnav_symbols_l_border" class="quotesnav floatR">&nbsp;</div>
+    </div>
+    </div>
+
+<div id="panel_left" class="vertical-nav-wrap floatL">
+
+    <div class="edit-symbol">
+		<form name="frmAddASymbol" method="get" onsubmit="return false"><!-- this form should never be submitted validatesymbol() does the work -->
+			    <!--<input id="AddASymbol" name="symbol" onkeypress="if (event.keyCode ==13) {validateSymbol();return false;}" type="text" />
+			    <input class="qn_addbtn" onmouseout="this.className='qn_addbtn'" onmouseover="this.className='qn_addbtn qn_addbtnhov'" type="button" onclick="validateSymbol();" />-->		
+			<span>
+				<span class="displayIB ValignM marginB10px edit-symbol-icon"></span>
+                <a href="javascript:void(0);" onclick="triggerAsyncOmnitureClickEvent('quotes:modal:edit-symbols');pushmodal('edit_symbol_modal_box','editSymbolListModalBoxInit()');">Edit Symbol List</a>
+			</span>
+            <br />
+			<span><!--id added here-->
+				<span class="displayIB ValignM symbol-lookup-icon"></span>
+                <a href="javascript:void(0);" onclick="triggerAsyncOmnitureClickEvent('quotes:modal:symbol-lookup');pushmodal('symbol_lookup_modal_box','symbolLookupModalBoxinit(\'stock\')')">Symbol Lookup</a>
+			</span>	
+		</form>
+    </div><!--end qn_addsymbol-->
+    
+	<div class="marginB10px">
+        <script type="text/javascript">makeAd('', '120x60', 'leftnav_top', is_dartZone, '', '');</script>
+    </div>
+	
+    <div id="quotesnav" class="vertical-nav floatL">
+
+        <form name="quotenav" id="quotenav" method="get" onsubmit="return CheckInput()">
+		        <input id="mode" type="hidden">
+		        <input id="kind" type="hidden">
+		        <input id="timeframe" type="hidden">
+		        <input id="intraday" type="hidden">
+		        <input id="charttype" type="hidden">
+		        <input id="splits" type="hidden">
+		        <input id="earnings" type="hidden">
+		        <input id="movingaverage" type="hidden">
+		        <input id="lowerstudy" type="hidden">
+		        <input id="comparison" type="hidden">
+		        <input id="index" type="hidden">
+		        <input id="FormType" type="hidden">
+		        <input id="mkttype" type="hidden">
+		        <input id="pathname" type="hidden">
+		        <input id="headlinesswitch" type="hidden">
+		        <input id="pressreleaseswitch" type="hidden">
+		        <input id="extendedswitch" type="hidden">
+		
+		
+
+	        <select style="display:none" id="quotepage" onchange="CheckInput()">
+			
+					        <option value="NasdaqLastsale">Real Time</option>
+					        <option value="nlstrades">NLS Trade Reporting</option>
+					        <option value="quick">FlashQuotes</option>
+					        <option value="multi">InfoQuotes</option>
+					        <option value="summaryquote">Summary Quote</option>
+					        <option value="charting">Charts</option>
+					        <option value="dynamic_charting">Interactive Charts</option>
+					        <option value="premarketcharts">Pre-Market Charts</option>
+					        <option value="afterhourscharts">After Hours Charts</option>
+					        <option value="redpage">Revenue / EPS Summary</option>
+					        <option value="full">Company Financials</option>
+					        <option value="competitor">- View Competitors</option>
+					        <option value="short">- Short Interest</option>
+					        <option value="companynews">Company News</option>
+					        <option value="companypressrelease">Press Releases</option>
+					        <option value="companynewsthestreet">Company News</option>
+					        <option value="companynewsthefool">Press Releases</option>
+					        <option value="sentiment">Sentiment</option>					
+					        <option value="analystinfo">Analyst Stock Research</option>
+					        <option value="stockreports">Stock Report</option>
+					        <option value="filings">SEC Filings</option>
+					        <option value="holdingssummary">- Holdings/Insider Summary</option>
+					        <option value="holdings">- Institutional Holdings</option>
+					        <option value="insiderform4">- Insider Form 4</option>
+					        <!--<option value="insiderform144">- Insider Form 144</option>-->
+					        <option value="options">Equity Options</option>
+					        <option value="premarket">Pre-Market Quotes</option>
+					        <option value="afterhours">After Hours Quotes</option>
+					        <option value="stockconsultant">Company Research</option>
+					        <option value="stockconsultant">- StockConsultant</option>
+					        <option value="stockcomparison">Stock Comparison</option>
+					        <option value="guruanalysis">- Guru Analysis</option>
+					        <option value="annualrpt">Annual Report</option>
+					        <option value="historical_quotes">Historical Quotes</option>
+					        <option value="CallTranscripts">Call Transcripts</option>
+					        <option value="dividend_history">Dividend History</option>
+					        <option value="guru-lynch">Lynch Analysis</option>
+					        <option value="guru-graham">Graham Analysis</option>
+					        <option value="guru-validea">Validea Momentum Analysis</option>
+					        <option value="guru-fool">Fool Analysis</option>
+					        <option value="guru-dreman">Dreman Analysis</option>
+					        <option value="guru-zweig">Zweig Analysis</option>
+					        <option value="guru-fisher">Fisher Analysis</option>
+					        <option value="guru-oshaughnessy">OShaughnessy Analysis</option>
+                            <option value="etfdetail">ETF detail</option>
+                            <option value="etfprofile">ETF Profile</option>
+					        <option value="chartingfunds">Comparison Charts</option>
+	        </select>
+		
+	
+        </form>
+	
+        <iframe name="validateSymbolForm" id="validateSymbolForm" frameborder="0" height="0" width="0"></iframe>
+		
+
+        <h5>Symbol List Views</h5>
+            <a id="quicklink" href="http://www.nasdaq.com/aspx/flashquotes.aspx?symbol=GOOGL&selected=GOOGL" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:flashquote')">FlashQuotes</a>
+            <a id="multilink" href="http://www.nasdaq.com/aspx/infoquotes.aspx?symbol=GOOGL&selected=GOOGL" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:infoquote')">InfoQuotes</a>
+
+        <h5> 
+                    Stock Details</h5>
+           
+
+            <a id="summaryquotelink" href="http://www.nasdaq.com/symbol/googl" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:summary')">Summary Quote</a>
+		        
+            <a id="NasdaqLastsalelink" href="http://www.nasdaq.com/symbol/googl/real-time" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:real-time')">Real-Time Quote</a>
+            <a id="afterhourslink" href="http://www.nasdaq.com/symbol/googl/after-hours" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:after-hours')">After Hours Quote</a>
+            <a id="premarketlink" href="http://www.nasdaq.com/symbol/googl/premarket" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:pre-market')">Pre-market Quote</a>
+	        <a id="historical_quoteslink" href="http://www.nasdaq.com/symbol/googl/historical" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:historical')">Historical Quote</a>
+	        <a id="optionslink" href="http://www.nasdaq.com/symbol/googl/option-chain" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:option-chain')">Option Chain</a>	  
+      
+        <h5>CHARTS</h5>
+            <a id="chartinglink" href="http://www.nasdaq.com/symbol/googl/stock-chart" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:stock-chart')">Basic Chart</a>
+            <a id="dynamic_chartinglink" href="http://www.nasdaq.com/symbol/googl/interactive-chart" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:interactive-chart')">Interactive Chart</a>   
+                <!--
+		        <li style="display:none"><a id="afterhourschartslink" href="http://www.nasdaq.com/symbol/googl/after-hours-chart">After Hour Charts</a></li>
+		        <li style="display:none"><a id="premarketchartslink" href="http://www.nasdaq.com/symbol/googl/premarket-chart">Pre-market Charts</a></li>
+                --> 
+    
+        <h5>
+		        
+    
+                COMPANY NEWS</h5>
+                    <a id="companynewslink" href="http://www.nasdaq.com/symbol/googl/news-headlines" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:news-headlines')">Company Headlines</a>
+                    <a id="companypressreleaselink" href="http://www.nasdaq.com/symbol/googl/press-releases" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:press-releases')">Press Releases</a>
+                    <a id="sentimentlink" href="http://www.nasdaq.com/symbol/googl/stream" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:stream')">Market Stream</a>
+        
+                
+    
+                <h5>STOCK ANALYSIS</h5>
+                    <a id="analystinfolink" href="http://www.nasdaq.com/symbol/googl/analyst-research" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:analyst-research')">Analyst Research</a>
+                    <a id="guruanalysislink" href="http://www.nasdaq.com/symbol/googl/guru-analysis" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:guru-analysis')">Guru Analysis</a>
+                    <a id="stockreportslink" href="http://www.nasdaq.com/symbol/googl/stock-report" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:stock-report')">Stock Report</a>
+                    <a id="competitorlink" href="http://www.nasdaq.com/symbol/googl/competitors" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:competitors')">Competitors</a>
+			        <a id="stockconsultantlink" href="http://www.nasdaq.com/symbol/googl/stock-consultant" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:stock-consultant')">Stock Consultant</a>
+			        <a id="stockcomparisonlink" href="http://www.nasdaq.com/symbol/googl/stock-comparison" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:stock-comparison')">Stock Comparison</a>
+   
+                <h5>FUNDAMENTALS</h5>
+			            <!--<a href="#">Hoovers Profile</a>   -->
+                    <a id="CallTranscriptslink" href="http://www.nasdaq.com/symbol/googl/call-transcripts" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:call-transcripts')">Call Transcripts</a>
+        	        <a id="annualrptlink" href="http://www.companyspotlight.com/partner?cp_code=NAS1&ticker=GOOGL" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:annual-report')">Annual Report</a>
+                    <a id="fulllink" href="http://www.nasdaq.com/symbol/googl/financials?query=income-statement" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:income-statement')">Income Statement</a>
+                    <a id="redpagelink" href="http://www.nasdaq.com/symbol/googl/revenue-eps" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:revenue-eps')">Revenue/EPS</a>
+                    <a id="filingslink" href="http://www.nasdaq.com/symbol/googl/sec-filings" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:sec-filings')">SEC Filings</a>
+                        <!--<li><a href="#">Filings</a></li>-->
+			        <a id="shortlink" href="http://www.nasdaq.com/symbol/googl/short-interest" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:short-interest')">Short Interest</a>
+			        <a id="dividend_historylink" href="http://www.nasdaq.com/symbol/googl/dividend-history" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:dividend-history')">Dividend History</a>
+    
+                <h5>HOLDINGS</h5>
+                    <a id="holdingssummarylink" href="http://www.nasdaq.com/symbol/googl/ownership-summary" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:ownership-summary')">Ownership Summary</a>
+                    <a id="holdingslink" href="http://www.nasdaq.com/symbol/googl/institutional-holdings" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:institutional-holdings')">Institutional Holdings</a>
+                    <a id="insiderform4link" href="http://www.nasdaq.com/symbol/googl/insider-trades" onclick="triggerAsyncOmnitureClickEvent('quotes:nav:insider-trades')">Insiders<br />(SEC Form 4)</a>
+
+            
+    </div><!-- quotesnav -->
+
+</div><!-- end panel left-->
+
+<!-- modal box implementations -->
+
+<!-- edit symbol box-->
+
+<div id="edit_symbol_modal_box" class="modal_content" style="width:410px;height:315px;top:100px;left:400px">
+	<!-- close button-->
+	<span class="close" onclick="popmodal()">CLOSE<span class="x">X</span></span><br />
+	<!-- header -->
+	<div class="TalignC">
+		<h2>Edit Symbol List</h2>
+	</div>
+	<!-- text -->
+	<div class="marginL10px">
+		<p>Enter up to 25 symbols separated by commas or spaces in the text box below. These symbols will be available during your session for use on applicable pages.</p>
+	</div>
+
+	<div class="marginL10px">
+		<!-- input box -->
+		<div class="floatL">
+			<textarea rows="3" cols="40" name="modalinput" id ="modalinput" onkeypress="if(event.keyCode ==13){gomodal();}else if(event.keyCode == 27){popmodal();}"></textarea>
+		</div>
+		<!-- right side controls -->
+		<div class="floatL marginL10px">
+			<a href="javascript:void(0)" onclick="gomodal();" class="lightgreen-button marginB5px TalignC">Go Now</a>
+            <br />
+			<a href="javascript:void(0)" onclick="clearlist();" class="red-button">Clear List</a>			
+		</div>
+	</div>
+
+    <div class="clearB"></div>
+
+	<!-- symbol lookup text-->
+	<div class="marginL10px">
+		<p>
+            Don't know the stock symbol?  Use the 
+            <a href="javascript:void(0);" onclick="triggerAsyncOmnitureClickEvent('edit-symbols:modal:symbol-lookup');pushmodal('symbol_lookup_modal_box','symbolLookupModalBoxinit()')">Symbol Lookup</a> tool.
+	        <br/>
+		    <input type="checkbox" id="orderlistcontrol" class="marginR5px" onclick="triggerAsyncOmnitureClickEvent('edit-symbols:checkbox:alphabetize')" />Alphabetize the sort order of my symbols
+		</p>
+	</div>
+
+</div>
+
+<!-- end edit symbol box -->
+
+<!-- symbol lookup modal box -->
+<div id="symbol_lookup_modal_box" class="modal_content" style="width:440px;min-height:370px;top:100px;left:35%">
+	<!-- close button-->
+	<span class="close" onclick="popmodal()">CLOSE<span class="x">X</span></span>
+	<div class="clearB paddingT5px"></div>
+	<table width="415" class="marginL5px">
+        <tr><td>&nbsp;</td></tr>
+		<tr><td><h2>Symbol Lookup</h2></td></tr>
+	</table>
+	<iframe id="msymbollookupframe" frameborder="0" style="width:100%;height:255px"></iframe>
+</div>
+<!-- end symbol lookup modal box -->
+<!-- begin lightbox backdrop -->
+<table class="backdrop" id="customModal">
+	<tr>
+		<td>
+            <!-- begin lightboxness -->
+            <div class="lightbox" id="followPromo">
+				<!-- close button-->
+				<span class="close" onclick="close_modal()">CLOSE<span class="x">X</span></span>
+                <h2>Investing just got easier&#8230;</h2>
+                <h4>Sign up now to become a NASDAQ.com member and begin receiving instant notifications when key events occur that affect the stocks you follow.</h4>
+                <a class="faux-button lightgreen-button" href="http://community.nasdaq.com/" onclick="triggerAsyncOmnitureClickEvent('quotes:faux-follow:access-now')">
+                    <span>Access Now</span>
+                </a>
+                <div class="clearB"></div>
+                
+            </div>
+            <!-- end lightboxness -->
+         </td>
+	</tr>
+</table>
+<!-- end lightbox backdrop -->
+
+<script>
+    function close_modal()//closes all custom modal boxes
+    {
+        $('#customModal .lightbox').removeClass('visible');
+        $('#customModal').removeClass('visible');
+    }
+
+    function open_modal(contentID)//opens a custom modal box, contentID is the unique ID
+    {
+        $('#customModal').addClass('visible'); //display the loading box
+        $('#' + contentID).addClass('visible');
+    }
+
+    function switch_to_modal(contentID)//switches from one custom modal box to another, contentID is the unique ID
+    {
+        $('#customModal .lightbox').removeClass('visible');
+        $('#' + contentID).addClass('visible');
+    }
+</script>
+
+                <div class="q-gray-wrap">
+                    <!--// begin cookie checkbox -->
+                    <div class="quotenav_checkbox-leftgray">
+                        <input type="checkbox" id="cookiepref" onclick="triggerAsyncOmnitureClickEvent('quotes:checkbox:save-stocks');toggleCookieNav()">&nbsp;Save Stocks
+                    </div>
+                    <!--// end cookie checkbox -->
+                    <!--// begin 980 unit -->
+                    <div id="qtop-graybg">
+                        
+<div id="qtopAd-graybg-inside">
+    <script type="text/javascript">
+        makeAd('8', '980x20', is_dartSite, is_dartZone, '', '');
+    </script>
+</div>
+<div class="graybg-refresh">
+    <input type="button" onclick="refresh()" value="Refresh" />
+</div>
+
+                    </div>
+                    <!--// end 980 unit -->
+                </div>
+                
+		        <div id="left-column-div">
+                    
+
+
+
+        <div></div>
+		<div class="genTable">
+			<table>
+			    <thead>
+                    <tr>
+                        <th>
+                            <a class="tt show-link" id="last_sale" onmouseover="showDelayedToolTip('last_sale')" onmouseout="hideToolTip('last_sale')" href="javascript:void(0)">
+                                GOOGL's NASDAQ Last Sale (NLS)
+                                <span class="tooltipLG">
+                                    <span class="topLG"></span>
+                                    <span class="middleLG">
+                                        "Last Sale" is the price at which a stock last traded during regular market hours.
+                                    </span>
+                                    <span class="bottomLG"></span>
+                                </span>
+                            </a>
+                        </th> 
+                        <th>
+                            <a class="tt show-link" id="share_volume" onmouseover="showDelayedToolTip('share_volume')" onmouseout="hideToolTip('share_volume')" href="javascript:void(0)">
+                                NLS Volume
+                                <span class="tooltipLG">
+                                    <span class="topLG"></span>
+                                    <span class="middleLG">
+                                        "Volume" is the number of shares of the stock traded on the listing exchange during regular trading hours.
+                                    </span>
+                                    <span class="bottomLG"></span>
+                                </span>
+                            </a>
+                        </th>  
+	                    <th>Previous Close</th>
+	                    <th>Today's High / Low</th>
+                        <th>52 Week High / Low</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span id="quotes_content_left__LastSale" style="display:inline-block;">792.3</span>
+                            &nbsp;&nbsp;
+                            <span id="quotes_content_left__NetChange">1.3</span>
+                            &nbsp;<span class="red" id="_updownImage">&#9660;</span>
+                            &nbsp;<span id="quotes_content_left__PctChange">0.16%</span>
+                        </td>
+                        <td><span id="quotes_content_left__Volume">259,713</span></td>
+                        <td>$<span id="quotes_content_left__PreviousClose">793.6</span></td>
+                        <td>&nbsp;<span id="quotes_content_left__TodaysHigh">793.50</span> / <span id="quotes_content_left__TodaysLow">787.23</span></td>
+                        <td><span id="quotes_content_left__52WeekHigh">$813.879</span> / <span id="quotes_content_left__52WeekLow">$611.67</span></td>
+                    </tr>
+                </tbody>
+			</table>
+		</div>
+        <div class="floatR paddingT10px">
+			<small>Data as of <span id="quotes_content_left__TradeTimeStamp">8/25/2016 12:22:27 PM</span>&nbsp;-&nbsp;<span id="quotes_content_left__MarketStatus"></span></small>
+        </div>
+
+		<div class="clearB"></div>
+        <br />
+
+		<div id="chartcontainer"></div>
+
+		<script type="text/javascript">
+		    document.write("<div class=\"sub-nav\"><ul class=\"inline noindent marginR0px\"><li><a class=\"selected-sub-nav\" href=\"javascript:void(0)\">Intraday</a></li> ");
+		    document.write("<li><a href=\"http://www.nasdaq.com/symbol/googl/interactive-chart?timeframe=5d\">5 day</a></li> ");
+		    document.write("<li><a href=\"http://www.nasdaq.com/symbol/googl/interactive-chart?timeframe=1m\">1 Month</a></li> ");
+		    document.write("<li><a href=\"http://www.nasdaq.com/symbol/googl/interactive-chart?timeframe=6m\">6 Months</a></li> ");
+		    document.write("<li><a href=\"http://www.nasdaq.com/symbol/googl/interactive-chart?timeframe=1y\">1 Year</a></li> ");
+		    document.write("<li><a href=\"http://www.nasdaq.com/symbol/googl/interactive-chart\">More Charting</a></li></ul></div>");
+		</script>
+
+		<div class="clearB"></div>
+        
+        <div id="qtopAd-graybg-inside">
+            <script type="text/javascript">
+                makeAd('8', '980x20', 'mop', is_dartZone, '', '');
+            </script>
+        </div>
+
+        <div class="clearB"></div>
+        <br />
+
+		<div id="last-five-wrap" class="genTable">
+		    <a href="http://www.nasdaq.com/symbol/googl/time-sales"></a>
+			<div class="relativeP">
+			    <h2>Last Five Real-Time Trades</h2>
+                <div>
+                    <script type="text/javascript" language="JavaScript">makeAd('5', '88x31', is_dartSite, is_dartZone, '', '');</script>
+                </div>
+			</div>
+		    <table class="NLSTable" id="NLSTable_Table">
+			    
+			            <thead>
+			                <tr>
+				                <th>NLS Time (ET)</th>
+				                <th>NLS Price</th>
+				                <th>NLS Share Volume</th>
+			                </tr>
+			            </thead>
+			            <tbody>
+			        
+			            <tr>
+				            <td>12:22:26</td>
+				            <td>$792.30&nbsp;</td>
+				            <td>100</td>
+			            </tr>
+			        
+			            <tr>
+				            <td>12:22:18</td>
+				            <td>$792.4037&nbsp;</td>
+				            <td>163</td>
+			            </tr>
+			        
+			            <tr>
+				            <td>12:21:00</td>
+				            <td>$792.51&nbsp;</td>
+				            <td>100</td>
+			            </tr>
+			        
+			            <tr>
+				            <td>12:20:36</td>
+				            <td>$792.71&nbsp;</td>
+				            <td>100</td>
+			            </tr>
+			        
+			            <tr>
+				            <td>12:20:23</td>
+				            <td>$792.5694&nbsp;</td>
+				            <td>200</td>
+			            </tr>
+			        </tbody>
+		    </table>
+
+		    <div class="floatR marginT10px">
+		        <div class="view-all-anchor">
+			        See <a href="http://www.nasdaq.com/symbol/googl/time-sales"><span>All Trades</span></a>
+		        </div>
+		    </div>
+		    <div class="clearB paddingT5px"></div>
+            <small>
+                The last real-time five trades feature is not available during the
+                <br /><a href="http://www.nasdaq.com/symbol/googl/premarket">Pre-Market</a>, 
+                nor the <a href="http://www.nasdaq.com/symbol/googl/after-hours">After Hours</a>. Visit the respective link for the trading information in that session. 
+            </small>
+		</div>
+
+		<div id="stock-rating-target">
+            <div class="genTable">
+                <h2>Stock Rating / Target Est.</h2>
+			    <table>
+			        <thead>
+                        <tr>
+                            <th>Community Rating</th>
+                            <th>1 Year Target</th>
+                        </tr>
+			        </thead>
+			        <tbody>
+				        <tr>
+					        <td>
+
+<div class="comm_rating">
+    <div id="ratingtext">
+        <a id="quotes_content_left_OverallStockRating1_hlIconLink" href="http://community.nasdaq.com/community-ratings.aspx?stockticker=GOOGL">
+		    <img src="http://www.nasdaq.com/images/bullish-icon.png"  width="30" Height="30" alt="Rate Alphabet Inc." class="paddingR10px" />
+        </a>
+        <div style="margin:-31px 0 0 43px"><span id="quotes_content_left_OverallStockRating1_lblPercentage" class="comm_bullrating">88% bullish</span>&nbsp;<span id="quotes_content_left_OverallStockRating1_lblTotalRatingsCount">of 1131 ratings</span></div>
+    </div>
+    <a id="quotes_content_left_OverallStockRating1_hlStockSymbol" title="Rate GOOGL" class="comm_rateit" href="http://community.nasdaq.com/community-ratings.aspx?stockticker=GOOGL" style="padding-left:0;float:left;">Rate it</a>
+</div></td>
+					        <td><span id="quotes_content_left__1YearTargetEstimate">$927.50</span></td>
+				        </tr>
+			        </tbody>
+                </table>
+
+                <h2>NASDAQ Official Price</h2>
+                <table>
+                    <thead>
+				        <tr>
+					        <th>Open Price / Date</th>
+					        <th>Close Price / Date</th>
+				        </tr>
+                    </thead>
+                    <tbody>
+				        <tr>
+					        <td><div><span id="quotes_content_left__NOOPAndDate">$792/Aug. 25, 2016</span></div></td>
+					        <td><div><span id="quotes_content_left__NOCPAndDate">$793.60/Aug. 24, 2016</span></div></td>
+				        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="floatR marginT10px view-all-anchor">
+                Learn more about <a href="http://www.nasdaq.com/quotes/real-time.aspx"><span>Real Time Quotes</span></a>
+            </div>
+		</div>
+        <div class="clearB"></div>
+							
+	
+
+        <!-- end graph div -->
+        <div class="prev-viewed_holder">
+        </div><!-- end prev viewed holder div -->
+
+
+
+
+		        </div><!--end left-column-div-->
+            </div>
+            <div id="right-column-div">
+                
+    <div>
+        <script type="text/javascript">
+             if (quoteBoxSelectedSymbol != "VNTH" && quoteBoxSelectedSymbol != "NDAQ" && quoteBoxSelectedSymbol != "GLRI") {
+                if (getAdRotatorRandom(0)) {
+                    if (selected_symbol != "QQQE")
+                        makeAd('3', '300x250,300x600', is_dartSite, is_dartZone, '', '');
+                    else
+                        makeAd('3', '300x250,300x600', 'quotes', 'drxticker_qe', '', '');
+                }
+                else
+                    makeAd('3', '300x250,300x600', 'quotes', 'nls', '', '');
+            }
+        </script>
+
+    <div class="divider"></div>
+    <!--******* Start ~/investing/online-brokers/rightside-brokerlink.inc ******** -->
+
+<script>
+if(adRotatorRandom(50))
+	addStyle('dynamic','#online-broker-center-header,#online-broker-center-box{display:none;}');
+else
+	addStyle('dynamic','#forex-broker-center-header,#forex-broker-center-box{display:none;}');
+</script>
+
+<div id="online-broker-center-box" class="TalignC marginB10px">
+	<h3>Research Brokers before you trade</h3>
+</div>
+<div id="online-broker-center-box" class="marginL25px paddingL15px">
+	<a href="http://www.nasdaq.com/investing/online-brokers/" class="blue-button marginL25px" onclick="triggerAsyncOmnitureClickEvent('module:onlinebrokercenter:quotes-button')">
+		Compare Online Brokers
+	</a>
+</div>
+<div class="TalignC" id="forex-broker-center-header">
+	<h2>Want to trade FX?</h2>
+</div>
+<div id="forex-broker-center-box" class="marginL25px">
+	<a href="http://www.nasdaq.com/investing/forex/forex-brokers.aspx" class="blue-button marginL25px" onclick="triggerAsyncOmnitureClickEvent('module:forexbrokercenter:quotes-button')">
+		Visit our Forex Broker Center&nbsp;
+	</a>
+</div>
+
+<!--******* END ~/investing/online-brokers/rightside-brokerlink.inc ********** -->
+    <div class="divider"></div>
+
+    <script type="text/javascript">
+        makeAd('4', '300x250,300x600', 'mop', is_dartZone, '', '');
+    </script>
+
+    <div class="clearB"></div>
+    <br />
+
+            <div class="clearB"></div>
+            <br />
+
+    <form method="post" action="./real-time?symbol=GOOGL&amp;selected=GOOGL" id="news">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="LjnD2Wi/Si4tIATUIi9Kk9cewDkqM8ikll/SbRsD2wRdi4UECNlkzNdPNo/JIgJwckcFspuCZYbXE/xTytpw2XIAEKYzb4XpmS2giTkMaknKhStGyhuVkf19dATR1Yk3c2KN1L60AG7p+X//iN9nnf0jS1qzKUlDOd/WxKV1C9qs9VwSzTx/1hNqIWz7MghZ2UxMGoldBbnq3t9XDD9MiWgDGw/7ogcmdCMhFZySEsNzHMsM1B6qHHcZBTCbPz6fPE2lgxylkTSNH8Bl7FYVAtejgTVCxgkxe1Ok4yvgCTcibcpO+aAfDH14j9z3xlKpc97GD3c5Ybcj9Q2/iqVugQOSkRgbGPw+jMOTDPtGg132VdzUFCPfsspbUi0iK445HR3IBs+nR1HFotP3f+AwxPRZUp68Ri3CwKXhmyk2RW/043djCEA/KJmnTQxfvHD161VMCts/PqDFeM2oXSVSGFk4CwCB2MO4w+5OeEG5qk+z1yLXZ1JpUYBfpkvi/4/tr2H4p9HSGMywsbCNdICL59Uzqc6HnXgBtAOw0Q1KUUmU2pgkyTwGptHPWmcSSFRlpzano3ppHsteUsDrL5P6g3YfygCdZ96amiNKX5RkzUQgG/d+dv1h5/kviSx/MvsBX6pOw8a8hvDbohIFAJAjOwezk/cPnZiiXitF1jDX8U8HiZH6+EInOQeDuqiL28O8PVyFsDVK5EnkXEV38U477faPiQhmLl1YgVoEKmCFFcSh0gifN4M6tMLF48wRVn0JXFtHCtLjO8FMoyvhCk9sDH4J0rDD8OaPwIsQ7h7zBbVcOjd0SQhk7pggFBKXuSo0LIwzA0rEgSaw0RenDRAXSak2jwCQtPnvQ7gMT7tGkN9NCRTmtxzWKRpIOLoajEWro45Ji2lD0KNeOyrtRX64mXk3kj5oUqWFaCCC8X5GsOQ7TMS/hIUhUvFx2nnoIIm1+LIcBWBN4+Zp20EsvZxSrQOZZYmzD+nPVHKME6p/wvFYrxNKt/DDKEApNujt7rqW5w4nsRh5YoPn4UJ5eFtAR9D9lpfEvGquREqkBuC4A9FuW5P2jUY35tVZRCv3Wz3NhkMT8iIGTYxQHt7ZUbVpNv5O3F6CE3xd/So7gRwLahk51hIUW1BWfbPbkB62xdJE0YuZvarwWC0x3X/u96q/fxLdTuuQxeQa7M7v5kuMCbAOub7dbZE3D3BrK6tN/TjtsvxDOMCLRf79x55kX0JBoyYKD+qBDpXtGe5M7VmQJ8yq1rNjrITtC7z1vj7NfXK+QyeNU/5ZcrfjosSI4JQye2bOVn3q99xOyRRqQjgHHI1sogXTPrYimcM40G14xm8avq7q4hTpZO3IsX5QCD0FOfynnzixi7XqnMuru7RmMqo4XFyz1AOjhcbBMKVATPf/LAZG1fCGWQnO7VCqetO48f8QZWFsy+8uUCIL+H3e552SvmaeFFJzeOU9HHcrWr8Cmv1aNDl74sQlbC3sbd/Ef6PIG3oyDKVUzQ5S2SBixNx5JwLhgbwFdWnguDWDqBaj43OVvDvTSlMg3kaipYiD/YuB9zvUeXj0WHIlly9A9xvT4ArYbmd6WWUAeaBGSw4Z0x+BnQ3pDLP7kWfkDwKcGWqoCzOt2GB4W4hRuF2yn6GDc4rtjh6jmm6pwpPsk/LgTDDzIdgoa/ZLKwdS5uUSM05n0bGBIZ4Qnuvu4w0Ttsb9KAj9WXaRB6Xc/HKlsbCdAR+FpBm5vjsrKtBCWMpf77bD8y3uoemutyDTmKDPdKnb+9t5CzR84+SuKYa35SfqfibYI4dO5NRSoKSXXbkOdh5e13OGz7lLzpUGLD3rJCrNQLp5RaUUQ08KZ03KG5Qu6J11Baoi+e5yA/e5aRdwLsdJ65YyTVI1/aFBj7++QF34V/eURHFrOABCiduHkSr13NinKWGQNgaLmYPMc/wUCuVHmQxD8uf8N1jjgPCYLeMJ/Emol9u2CbH+bmNTEmc/n5h46EDwV7yVRPk9cGZCQIAqSn8BJT4ThJYPF2AfgXEo6CcbZhYsempyuQUCUkErhatB/iplsRCRv30S2K743ydEh7yd2SBtXCkAr9QtT82D1H5X/FhjxrnE+rut1u4TsxqZCV8Dew+Ne7audoXDEq55Lg9oyql2RUFTntENdS3bju09AmT4ypXHMsaKurlUK6Yd+jRUni8gEVmj3g6t96g9naanOqpCKDunif9IaVSRtgvsuO8o90CAZEmyb1Nb46V0Ms3q+6bfTIuNnaVJ473qNxpkhPiJ2b4iNsoBWgPXRNQZvjGGxd2QpwyVPYihi6VuJXWnC2sfZ+xvg1tFLFok2676YXfJiAxiY/fzWbwWoYElLwvtwBkn7vUYKhOrs/zND2ZzFJW1nWhFo1d/CXFqLqZWg1JSlSKP021jdlJ0GDRogipvSmCKLqQlBCqzvkEYEhqaerkz4993dtH5ygCEb7Jfauwxd1XXg7af+X9grkRWKZ401T73rXizmysK6gkdyCabBqah6OxaKTBVy/4Dvj2MY5y41LRVH2hdMNWROH11JK4vtmoTBM7/K5/1xeVjVq8sSnoHjR1UVtaaiYctOj30LtUox57LsgVS9bOAEAuYkzC0E34aKrIzAFnPAXaEuVrAhgoCgDZP69S+cbQuV/McHHJks1QZqqB6cGRthtgiK69KjN/nNG970nI2UcowZvT7U0r2TQ1a+3WSAVlLSpB2tr6Nyfbne1FaUmfljJNG4O+JubbNHHUHhFPHGt31TKmJ7n24I/QAAfPPT6ELynCVXbKO3RhGF/j9OQ1LuzBoj2Kr9PZ+crJz0TTXJhGQpRxmepXLQAuudBzNQwUQY/MGwg2ASu3P+e+1fuXLoXQej14XUucWwCWhlyMGxg9HWLP2tRNlZVYxjtetPfCbwp6deoYynHhuQmOjAPpVmvI3qdpt4VeDGI5KlJykLRlKzOODSs7YLxx0F0yhN26eUQQo/azLtU6iwPtOzxAzlsnMn96f6lJwBwbhv51eLTxDUHcJkXM2mrknEijh3CoVlchlCGqrEbtsUoOWvx92EbCGrzM/yqG2QwOdXOLvbepQiVUKMetD028dlmL+aw==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="94B4FA39" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+        
+<div id="CompanyNewsCommentary">
+    <div id="CompanyNewsCommentary_Header">
+        <div id="CompanyNewsCommentary_Heading" class="floatL paddingT10px">
+            <h3>News for GOOGL</h3>
+        </div>
+        <div id="CompanyNewsCommentary_NewsAd" class="floatR paddingB10px">
+            <script type="text/javascript" language="javascript">makeAd('2','120x60','newsbox',is_dartZone,'','');</script>
+        </div>
+        <div class="clearB"></div>
+    </div>
+    <ul class="orange-ordered-list marginB0px marginL10px marginR0px">
+        
+                <li class="marginB10px">
+                    <a target="_blank" href="http://seekingalpha.com/article/4002077-tracking-stephen-mandels-lone-pine-capital-portfolio-q2-2016-update?source=nasdaq" class="fontS14px">
+                        Tracking Stephen Mandel's Lone Pine Capital Portfolio - Q2 2016 Update
+                    </a>
+                    <br />
+                    <small>8/25/2016 10:44:00 AM - Seeking Alpha</small>
+                </li>
+            
+                <li class="marginB10px">
+                    <a target="_self" href="http://www.nasdaq.com/article/is-gopro-inc39s-cloud-platform-finally-here-cm670191" class="fontS14px">
+                        Is GoPro Inc's Cloud Platform Finally Here?
+                    </a>
+                    <br />
+                    <small>8/25/2016 10:40:00 AM - Motley Fool</small>
+                </li>
+            
+                <li class="marginB10px">
+                    <a target="_blank" href="http://www.investopedia.com/articles/insights/082516/how-did-sergey-brin-get-rich.asp?utm_campaign=quote-nasdaq&utm_source=nasdaq&utm_medium=referral&utm_term=fb-capture&utm_content=#ec|rss-nasdaq" class="fontS14px">
+                        How Did Sergey Brin Get Rich?
+                    </a>
+                    <br />
+                    <small>8/25/2016 10:00:00 AM - Investopedia</small>
+                </li>
+            
+                <li class="marginB10px">
+                    <a target="_blank" href="http://seekingalpha.com/article/4001988-tracking-mason-hawkins-southeastern-asset-management-portfolio-q2-2016-update?source=nasdaq" class="fontS14px">
+                        Tracking Mason Hawkins' Southeastern Asset Management Portfolio - Q2 2016 Update
+                    </a>
+                    <br />
+                    <small>8/25/2016 4:35:00 AM - Seeking Alpha</small>
+                </li>
+            
+                <li class="marginB10px">
+                    <a target="_self" href="http://www.nasdaq.com/article/selfdriving-taxis-hit-the-road-in-singapore-20160825-00081" class="fontS14px">
+                        Self-Driving Taxis Hit the Road in Singapore
+                    </a>
+                    <br />
+                    <small>8/25/2016 4:15:00 AM - Dow Jones Business News</small>
+                </li>
+            
+    </ul>
+    <div id="CompanyNewsCommentary_MoreLinks" class="floatL widthF">
+        
+            <div id="CompanyNewsCommentary_RSS" class="fontS14px marginB5px">
+                <img alt="" src="/images/feed-16x16.png" width="16" height="16" class="ValignM" />&nbsp;<a href="http://articlefeeds.nasdaq.com/nasdaq/symbols?symbol=GOOGL" id="quotes_content_right_CMCId_hlRss" class="ValignM"><b>Subscribe</b></a>
+            </div>
+        
+        
+            <div class="view-all-anchor">
+                More <a href="http://www.nasdaq.com/symbol/googl/news-headlines" id="quotes_content_right_CMCId_readmore">GOOGL&nbsp;<span>News &amp; Commentary</span></a>
+            </div>
+            <div class="clearB marginT5px"></div>
+            <div class="view-all-anchor">
+                Read <a href="http://www.nasdaq.com/symbol/googl/press-releases" id="quotes_content_right_CMCId_readpress">GOOGL&nbsp;<span>Press Releases</span></a>
+            </div>
+            <div class="clearB"></div>
+        
+    </div>
+</div>
+<div class="clearB"></div>
+    </form>
+
+    <div class="clearB"></div>
+    <br />
+
+    <!-- BEGIN includes/ad-quotes-300.inc -->
+<!--
+<div class="clearB"></div>
+<br />
+<script type="text/javascript" language="JavaScript">
+	//makeAd('3', '300x200', 'mktsnews', 'Dianomi', '', '');
+</script>
+-->
+<!-- END includes/ad-quotes-300.inc -->
+
+    <div class="clearB"></div>
+    <br />
+
+    <script type="text/javascript">
+        makeAd('5', '285x100', 'home', 'cme', '', '');
+    </script>
+
+    <div class="clearB"></div>
+    <br />
+
+    <script type="text/javascript">
+        if (quoteBoxSelectedSymbol != "VNTH") {
+            makeAd('6', '300x250,300x600', 'btf', is_dartZone, '', '');
+        }
+    </script>
+
+    </div>
+
+            </div><!--end right-column-div-->
+			
+			<script type="text/javascript">defineABHC('end');</script>
+        </div><!-- end content -->
+          <!-- START Google Ads includes/footer_googAd.inc-->
+  
+  <div class="clearB"></div>
+  <br /><br />
+  
+  <div class="footer_googAd marginLAuto marginRAuto" style="width:728px;">
+    <script type="text/javascript" language="javascript">
+		google_ad_client = "pub-1861191755926748";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		google_ad_region= "test";//allow for more than 3 google ads
+		googleSetFooterAdSlotAndHints();//set ad slot and hints fields
+	</script>
+	<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+
+
+
+  </div>
+
+  <!-- END Google Ads includes/footer_googAd.inc-->
+
+
+		<div id="back-to-top" title="Scroll back to top" onclick="triggerAsyncOmnitureClickEvent('master:global-object:back-to-top')"><span></span></div>
+	</div><!--end wrap-->
+	
+	<!-- begin includes/fixedFooter.inc-->
+<!--// begin footer -->
+<footer class="site__footer">
+	<div class="site__footer--primary">
+		<div class="wrapper">
+			<a href="http://www.nasdaq.com/" class="logo">
+				<div></div>
+			</a>
+			<div class="floatR">
+				<a href="https://www.facebook.com/NASDAQ" class="icon icon-facebook">
+					<span></span>
+				</a>
+				<a href="https://twitter.com/nasdaq" class="icon icon-twitter">
+					<span></span>
+				</a>
+				<a href="https://plus.google.com/+nasdaq" class="icon icon-google-plus">
+					<span></span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="site__footer--secondary">
+		<div class="wrapper">
+			<nav class="site__footer__nav">
+				<ul>
+					<li><a href="http://www.nasdaq.com/" title="Nasdaq"><strong>NASDAQ.com</strong></a></li>
+					<li><a href="http://www.nasdaq.com/quotes/company-news.aspx" title="Company News">Company News</a><span>&#47;</span></li>
+					<li><a href="http://www.nasdaq.com/services/annual-reports.aspx" title="Annual Report">Annual Report</a><span>&#47;</span></li>
+					<li><a href="http://www.nasdaq.com/help/contact-information.aspx" title="Contact">Contact</a><span>&#47;</span></li>
+					<li><a href="http://www.nasdaq.com/help/nasdaq-advertising.aspx" title="Advertise on Nasdaq.com">Advertise on Nasdaq.com</a><span>&#124;&nbsp;</span></li><li><a href="http://m.nasdaq.com/symbol/googl/real-time" onclick="mobileModule.accessMobileSite();">Mobile Version</a></li>
+				</ul>
+				<ul class="lighter">
+					<li><a href="http://www.nasdaq.com/about/terms.aspx" title="Terms of Use">Terms of Use</a><span>&#47;</span></li>
+					<li><a href="http://www.nasdaq.com/sitespecific/privacy.aspx" title="Privacy Policy">Privacy Policy</a><span>&#47;</span></li>
+					<li><a href="http://www.nasdaq.com/help/sitemap.aspx" title="Sitemap">Sitemap</a><span>&#47;</span></li>
+					<li><a href="http://www.nasdaq.com/investing/glossary/" title="Glossary">Glossary</a><span>&#47;</span></li>
+					<li><a href="http://www.nasdaq.com/feedback/" title="General Feedback">General Feedback</a><span>&#47;</span></li>
+					<li>
+						<!--*************************OpinionLab Begin*****************-->
+						<script language="javascript" type="text/javascript" src="http://www.nasdaq.com/services/onlineopinionS3tS/oo_engine.js"></script>
+						<script language="javascript" type="text/javascript">
+						O_GoT('<span></span>Feedback');
+						</script>
+						<!--*************************OpinionLab End*****************-->
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</footer>
+<!--// end footer -->
+<!-- begin lightbox backdrop -->
+<table class="backdrop" id="backdrop">
+	<tr>
+		<td>
+			<!-- begin lightboxness -->
+			<div class="lightbox edit-stocks" id="edit-stocks">
+				<!-- close button-->
+				<span class="close">CLOSE<span class="x">X</span></span>
+				<div class="floatL">
+					<h2><center>Edit Favorites</center></h2>
+					<!-- text -->
+					<p>Enter up to 25 symbols separated by commas or spaces in the text box below. These symbols will be available during your session for use on applicable pages.</p>
+					<!-- input box -->
+					<div class="floatL">
+						<textarea onkeypress="if(event.keyCode ==13){nasdaqIndexRow.myListGo()}else if(event.keyCode == 27){$('.close').click();}" id="myListInput" name="myListInput" cols="35" rows="3" class="fontS14px"></textarea>
+					</div>
+					<!-- right side controls -->
+					<div class="floatL marginL10px">
+						<a href="javascript:void(0)" class="lightgreen-button marginB5px TalignC" onclick="nasdaqIndexRow.myListGo();">Update</a>
+						<br />
+						<a href="javascript:void(0)" class="red-button" onclick="nasdaqIndexRow.clearMyList();">Clear List</a>
+					</div>
+				</div>
+			</div>
+			<!-- end lightboxness -->
+			<!-- begin lightboxness -->
+			<div class="lightbox stock-searches" id="stock-searches">
+				<!-- close button-->
+				<span class="close">CLOSE<span class="x">X</span></span>
+				<h2>Customize your NASDAQ.com experience</h2>
+				<b>Background Color Selector</b>
+				<br />
+				<span>Select the background color of your choice:</span>
+				<div class="clearB"></div>
+				<div id="BgSelector">
+					<div>
+						<div class="BgSelector-1">
+							<div class="floatL">
+								<input type="radio" name="themepreference" value="blackg" onclick="updateSiteTheme(this.value)">&nbsp;Black
+							</div>
+							<div class="BgSelector-color"></div>
+						</div>
+						<div class="clearB"></div>
+						<div class="BgSelector-2">
+							<div class="floatL">
+								<input type="radio" name="themepreference" value="slateg" onclick="updateSiteTheme(this.value)">&nbsp;Slate Gray
+							</div>
+							<div class="BgSelector-color"></div>
+						</div>
+					</div>
+					<div>
+						<div class="BgSelector-3">
+							<div class="floatL">
+								<input type="radio" name="themepreference" value="lightg" onclick="updateSiteTheme(this.value)">&nbsp;Light Gray
+							</div>
+							<div class="BgSelector-color"></div>
+						</div>
+						<div class="clearB"></div>
+						<div class="BgSelector-4">
+							<div class="floatL">
+								<input type="radio" name="themepreference" value="grayb" onclick="updateSiteTheme(this.value)">&nbsp;Gray Blue
+							</div>
+							<div class="BgSelector-color"></div>
+						</div>
+					</div>
+				</div>
+				<div class="clearB"></div>
+				<hr /><br />
+				<b>Quote Search</b>
+				<br />
+				<span>Select a default target page for your quote search:</span>
+				<div id="QuoteSetting">
+					<div>
+						<input type="radio" name="quotepreference" value="realtime" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+						&nbsp;Real-Time<br />
+						<input type="radio" name="quotepreference" value="afthours" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+						&nbsp;After Hours<br />
+						<input type="radio" name="quotepreference" value="premkt" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+						&nbsp;Pre-Market<br />
+						<input type="radio" name="quotepreference" value="compnews" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">&nbsp;News
+					</div>
+					<div>
+						<input type="radio" name="quotepreference" value="flash" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+						&nbsp;Flash Quote<br />
+						<input type="radio" name="quotepreference" value="summary" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+						&nbsp;Summary Quote<br />
+						<input type="radio" name="quotepreference" value="dyncharts" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+						&nbsp;Interactive Charts<br />
+						<input type="radio" name="quotepreference" value="default" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+						&nbsp;Default Setting<br />
+					</div>
+				</div>
+				<div class="clearB"></div>
+				<span>
+					Please note that once you make your selection, it will apply to all future visits to NASDAQ.com.
+					If, at any time, you are interested in reverting to our default settings, please select Default Setting above.
+					<br /><br />
+					If you have any questions or encounter any issues in changing your default settings, please email <a href="mailto:isfeedback@nasdaq.com?Subject=Default%20Settings%20Inquiry">isfeedback@nasdaq.com</a>.
+				</span>
+			</div>
+			<!-- end lightboxness -->
+			<!-- begin lightboxness -->
+			<div class="lightbox" id="confirm">
+				<!-- close button-->
+				<span class="close">CLOSE<span class="x">X</span></span>
+				<h4>Please confirm your selection:</h4>
+				<p>
+					You have selected to change your default setting for the Quote Search. This will now be your default target page;
+					unless you change your configuration again, or you delete your
+					cookies. <b>Are you sure you want to change your settings?</b>
+				</p>
+				<div>
+					<button class="floatL"  onclick="Nasdaq_Quotesearch.confirmHandler('defaultQuote', true)">YES</button>
+					<button class="floatR"  onclick="Nasdaq_Quotesearch.confirmHandler('defaultQuote', false)">NO</button>
+				</div>
+			</div>
+			<!-- end lightboxness -->
+		</td>
+	</tr>
+</table>
+<!-- end lightbox backdrop -->
+<table class="backdrop" id="globalCustomModal">
+	<tr>
+		<td>
+            <!-- begin lightboxness -->
+            <div class="lightbox" id="adBlockMsg">
+				<!-- close button-->
+				<span class="close" onclick="close_global_modal()">CLOSE<span class="x">X</span></span>
+				<h2><center>We have a favor to ask</center></h2>
+				<!-- text -->
+				<p id="adBlockMsgText">Please disable your ad blocker (or <a href="http://www.nasdaq.com/help/adblock-instructions.aspx">update your settings</a> to ensure that javascript and cookies are enabled), so that we can continue to provide you with the first-rate market news and data you've come to expect from us.</p>
+			</div>
+            <!-- end lightboxness -->
+         </td>
+	</tr>
+</table>
+
+<!-- Omniture code -->
+
+<!--********************BEGIN  ../includes/omniture.inc***********************-->
+
+<!-- SiteCatalyst code version: H.1.
+Copyright 1997-2005 Omniture, Inc. More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="http://www.nasdaq.com/includes/s_code-072016v1.js?v=03012016"></script>
+
+
+<script type="text/javascript" language="JavaScript">
+
+<!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script>
+
+<noscript><img
+src="http://nasdaq.122.2O7.net/b/ss/nasdaqprod/1/H.1--NS/0"
+height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.1. -->
+<!-- setSectionName() moved to js file: masthead_default.js -->
+
+
+<!--*********************End  ../includes/omniture.inc*******************************-->
+
+
+<script type="text/javascript">
+//<![CDATA[
+setSectionName(propVar);
+//]]>
+</script>
+
+<!-- Begin Tynt-->
+<script type="text/javascript">
+if(document.location.protocol=='http:'){
+var Tynt=Tynt||[];Tynt.push('apOVCYiV0r35wBadbiUzgI');
+(function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+}
+</script>
+<!-- End Tynt-->
+
+<!-- tapad tracking pixel -->
+<img src='http://tapestry.tapad.com/tapestry/1?ta_partner_id=965&ta_add_audiences=["367193"]&ta_format=png' width="1px" height="1px" />
+
+<!-- ideamelt resources -->
+<script>
+addScript(ideameltJS,true,"initIMApps()");
+</script>
+
+<!-- DataPoint Media tracking pixel -->
+<script>
+(function() {
+var d=document,h=d.getElementsByTagName('head')[0],s=d.createElement('script'),sc = 'https:' == document.location.protocol ? 'https://' : 'http://';
+s.type='text/javascript';
+s.async=true;
+s.src=sc+'s.dpmsrv.com/dpm_58f0744907ea8bd8e0f51e568f1536289ceb40a5.min.js';
+h.appendChild(s);
+})();
+</script>
+
+<!-- Begin BlueKai Tag --> 
+<iframe name="__bkframe" height="0" width="0" frameborder="0" style="display:none;position:absolute;clip:rect(0px 0px 0px 0px)" src="about:blank"></iframe> 
+<script type="text/javascript" src="http://tags.bkrtx.com/js/bk-coretag.js"></script> 
+<script type="text/javascript">
+
+bk_addPageCtx('is_dartSite', (typeof(is_dartSite)!=='undefined')?is_dartSite:'');
+bk_addPageCtx('is_dartZone', (typeof(is_dartZone)!=='undefined')?is_dartZone:'');
+bk_addPageCtx('propVar', (typeof(propVar)!=='undefined')?propVar:'');
+bk_addPageCtx('propVar15', (typeof(propVar15)!=='undefined')?propVar15:'');
+bk_addPageCtx('SymbolType', (typeof(SymbolType)!=='undefined')?SymbolType:'');
+bk_addPageCtx('StockIndustry', (typeof(StockIndustry)!=='undefined')?StockIndustry:'');
+bk_addPageCtx('ArticlePrimaryCategory', (typeof(ArticlePrimaryCategory)!=='undefined')?ArticlePrimaryCategory:'');
+ 
+bk_doJSTag(31843, 1); 
+</script> 
+<!-- End BlueKai Tag -->
+<!-- Foresee  -->
+<script type="text/javascript" async src="http://www.nasdaq.com/includes/foresee/foresee-trigger.js"></script>
+<!-- end includes/fixedFooter.inc-->
+	
+	
+<!-- START page bottom script -->
+<script>
+	setInterval(function(){refreshAd(4);refreshAd(10);refreshAd(14);}, 125000);
+</script>
+<script type="text/javascript">
+    var nasdaqHighChart = function () {
+        var symbol = 'GOOGL', intradayChart = null, updateInterval = null, maxtime = server_time.getTime(), //hang onto the highest X value
+    datavalues = [], intradayHighX = null, intradayLowX = null, volumedata = [], superpricedata = [], subpricedata = [], maxvol = 0, ymin, ymax = 0, ypadding = 15, flagdata = null, stopUpdating = false;
+
+        function dataSearch(values, find) {
+            var low = 0, high = values.length - 1, i = 0, comparison;
+            while (low <= high) {
+                i = Math.floor((low + high) / 2);
+                comparison = values[i].x - find;
+                if (comparison < 0) { low = i + 1; continue; }
+                if (comparison > 0) { high = i - 1; continue; }
+                return i;
+            }
+
+            i = Math.floor((low + high) / 2);
+            //bounds checking
+            if (i < 0) { return 0; }
+            if (i == values.length - 1) { return i; }
+            return i;
+        };
+
+        function compare(a, b) {
+            return a.x - b.x;
+        }
+
+        //looks in data values for the last point to the left of this X value.
+        function search(xpoint) {
+            return datavalues[dataSearch(datavalues, xpoint)];
+        }
+
+        function populateArrays(resultdata, chartmin, chartmax, previousClose) {
+            var prevx = 0, prevprice = previousClose;
+
+            datavalues = [];
+            volumedata = [];
+            superpricedata = [];
+            subpricedata = [];
+            maxvol = 0;
+            intradayHighX = 0;
+            intradayLowX = 0;
+
+            $.each(resultdata, function (dataindex, datavalue) {
+                maxvol = Math.max(maxvol, this.volume);
+                maxtime = Math.max(zx, maxtime);
+
+                //strip out seconds and milliseconds
+                var zx = Math.floor(this.x / 60000) * 60000;
+                volumedata.push([zx, this.volume]);
+                if (this.price === chartmin && intradayLowX === 0) {
+                    intradayLowX = zx;
+                }
+                if (this.price === chartmax && intradayHighX === 0) {
+                    intradayHighX = zx;
+                }
+
+                //keep triangles from happening.
+                if ((zx - prevx) > 60000 && this.price !== prevprice && prevx !== 0) {
+
+                    if (prevprice >= previousClose) {
+                        subpricedata.push([zx - 60000, previousClose, previousClose]);
+                        superpricedata.push([zx - 60000, previousClose, prevprice]);
+                    }
+
+                    if (prevprice <= previousClose) {
+                        subpricedata.push([zx - 60000, prevprice, previousClose]);
+                        superpricedata.push([zx - 60000, previousClose, previousClose]);
+                    }
+                }
+
+                if (this.price >= previousClose) {
+                    superpricedata.push([zx, previousClose, this.price]);
+                    subpricedata.push([zx, previousClose, previousClose]);
+                }
+                if (this.price <= previousClose) {
+                    subpricedata.push([zx, this.price, previousClose]);
+                    superpricedata.push([zx, previousClose, previousClose]);
+                }
+
+                datavalues.push({
+                    "x": zx,
+                    "price": this.price,
+                    "volume": this.volume
+                });
+
+                prevx = zx;
+                prevprice = this.price;
+            });
+        }
+
+        function updateArrays(resultdata, chartmin, chartmax, previousClose) {
+            var prevx = 0, prevprice = previousClose;
+
+            if (resultdata[0].price == datavalues[datavalues.length - 1].price && resultdata[0].volume == datavalues[datavalues.length - 1].volume) {
+                //values are the same, no update needed so stop here
+                return false;
+            }
+
+            $.each(resultdata, function (dataindex, datavalue) {
+                maxvol = Math.max(maxvol, this.volume);
+                maxtime = Math.max(zx, maxtime);
+
+                //strip out seconds and milliseconds
+                var zx = Math.floor(this.x / 60000) * 60000;
+                volumedata.push([zx, this.volume]);
+                if (this.price === chartmin && intradayLowX === 0) {
+                    intradayLowX = zx;
+                }
+                if (this.price === chartmax && intradayHighX === 0) {
+                    intradayHighX = zx;
+                }
+
+                //keep triangles from happening.
+                if ((zx - prevx) > 60000 && this.price !== prevprice && prevx !== 0) {
+
+                    if (prevprice >= previousClose) {
+                        subpricedata.push([zx - 60000, previousClose, previousClose]);
+                        superpricedata.push([zx - 60000, previousClose, prevprice]);
+                    }
+
+                    if (prevprice <= previousClose) {
+                        subpricedata.push([zx - 60000, prevprice, previousClose]);
+                        superpricedata.push([zx - 60000, previousClose, previousClose]);
+                    }
+                }
+
+                if (this.price >= previousClose) {
+                    superpricedata.push([zx, previousClose, this.price]);
+                    subpricedata.push([zx, previousClose, previousClose]);
+                }
+                if (this.price <= previousClose) {
+                    subpricedata.push([zx, this.price, previousClose]);
+                    superpricedata.push([zx, previousClose, previousClose]);
+                }
+
+                datavalues.push({
+                    "x": zx,
+                    "price": this.price,
+                    "volume": this.volume
+                });
+
+                prevx = zx;
+                prevprice = this.price;
+            });
+
+            return true;
+        }
+
+        function onDataReceived(result) {
+            if (typeof result.error != "undefined") {
+                onChartErrorReceived(result);
+                return;
+            }
+            var xpaddingl = 155,
+            xpaddingr = 240, //this is the # of minutes after the chart end time to pad. Always leave at least 15.
+            ystartOnTick = false,
+            yendOnTick = false;
+
+            ypadding = Math.round(10 * (result.ChartMax - result.ChartMin)) / 250;  //an attempt to be smarter about padding.
+            ymin = result.ChartMin - ypadding;
+            ymax = result.ChartMax + ypadding;
+
+            if (result.PreviousClose <= result.ChartMin) {
+                ymin = result.PreviousClose - ypadding;
+                ystartOnTick = false;
+            }
+            if (result.PreviousClose >= result.ChartMax) {
+                ymax = result.PreviousClose + ypadding;
+                yendOnTick = false;
+            }
+
+            populateArrays(result.data, result.ChartMin, result.ChartMax, result.PreviousClose);
+
+            intradayChart = new Highcharts.StockChart({
+                chart: {
+                    renderTo: "chartcontainer",
+                    alignTicks: false,
+                    marginLeft: 0,
+                    spacingLeft: 0,
+                    marginRight: 50,
+                    spacingRight: 0
+                },
+                xAxis: {
+                    type: 'datetime',
+                    dateTimeLabelFormats: {
+                        hour: '%l:%M %p',
+                        minute: '%l:%M %p'
+                    },
+                    allowDecimals: false,
+                    ordinal: false,
+                    startOnTick: false,
+                    endOnTick: false,
+                    min: result.OpenTime - (xpaddingl * 60 * 1000),
+                    max: result.CloseTime + (xpaddingr * 60 * 1000),
+                    plotLines: [{
+                        color: '#66aed1',
+                        value: result.OpenTime,
+                        width: 3
+                    },
+            {
+                color: '#66aed1',
+                value: result.CloseTime,
+                width: 3
+            }]
+                },
+                yAxis: [{
+                    title: { text: '' },
+                    labels: {
+                        align: 'left',
+                        x: 0,
+                        formatter: function () {
+                            return "$" + Highcharts.numberFormat(this.value, 2);
+                        }
+                    },
+                    offset: 0,
+                    height: 150,
+                    startOnTick: ystartOnTick,
+                    endOnTick: yendOnTick,
+                    min: ymin,
+                    max: ymax,
+                    tickPixelInterval: 30,
+                    opposite: true,
+                    plotLines: [{
+                        color: 'black',
+                        width: 2,
+                        value: result.PreviousClose,
+                        id: "previousClose",
+                        zIndex: 4
+                    },
+            {
+                color: 'black',
+                width: 1,
+                value: ymin,
+                id: "Barrier",
+                zIndex: 2
+            }]
+                },
+        {
+            title: { text: '' },
+            labels: {
+                align: 'left',
+                x: 0
+            },
+            offset: 0,
+            startOnTick: true,
+            endOnTick: false,
+            min: 0,
+            max: maxvol,
+            top: 175,
+            height: 75,
+            tickPixelInterval: 20,
+            opposite: true,
+            lineWidth: 0
+        }
+                ],
+                legend: {
+                    enabled: false
+                },
+                credits: {
+                    enabled: false
+                },
+                scrollbar: {
+                    enabled: false
+                },
+                rangeSelector: {
+                    enabled: false
+                },
+                navigator: {
+                    enabled: false
+                },
+                exporting: {
+                    enabled: false
+                },
+                tooltip: {
+                    borderColor: '#000000',
+                    formatter: function () {
+                        var tmp = this.x, tmpval = null, tt = '', fprice = '', fpcl;
+                        tmpval = search(tmp);
+                        if (tmpval) {
+                            tt = 'Time: <b>' +
+                    Highcharts.dateFormat("%l:%M %p", tmpval.x)
+                    + '</b><br />Last: <b>$'
+                    + Highcharts.numberFormat(tmpval.price, 2)
+                    + '</b><br />PCL: <b>$'
+                    + Highcharts.numberFormat(result.PreviousClose, 2)
+                    + '</b><br />Shares: <b>' + Highcharts.numberFormat(tmpval.volume, 0)
+                    + '</b>';
+                            if (tmpval.x === intradayHighX) {
+                                tt += '<br /><b>Intraday High</b>';
+                            }
+                            if (tmpval.x === intradayLowX) {
+                                tt += '<br /><b>Intraday Low</b>';
+                            }
+                            return tt;
+                        }
+                        else return false;
+                    }
+                },
+                subtitle: {
+                    text: 'Volume',
+                    floating: true,
+                    align: 'left',
+                    x: 5,
+                    y: 165,
+                    style: { fontSize: '16px' }
+                },
+                title: { text: '' },
+                series: [
+        {
+            id: 'VOL',
+            name: 'Volume',
+            data: volumedata,
+            lineWidth: 1,
+            type: "column",
+            yAxis: 1,
+            color: '#FFA200'
+        },
+        {
+            id: 'LH',
+            data: subpricedata,
+            lineWidth: 2,
+            type: "arearange",
+            yAxis: 0,
+            color: '#990000',
+            fillColor: {
+                linearGradient: [0, 0, 0, 150],
+                stops: [[0, 'rgb(255,255,255)'],
+                    [1, 'rgb(153,0,0)']]
+            }
+        },
+        {
+            id: 'UH',
+            data: superpricedata,
+            lineWidth: 2,
+            type: "arearange",
+            yAxis: 0,
+            color: '#339900',
+            fillColor: {
+                linearGradient: [0, 0, 0, 150],
+                stops: [[0, 'rgb(51,153,0)'],
+                    [1, 'rgb(255,255,255)']]
+            }
+        },
+        {
+            type: 'line',
+            id: 'flagseriesIL',
+            enableMouseTracking: false,
+            color: '#FFA200',
+            marker: {
+                enabled: true,
+                symbol: 'circle'
+
+            },
+            data: [[intradayLowX, result.ChartMin]]
+        },
+        {
+            type: 'line',
+            id: 'flagseriesIH',
+            enableMouseTracking: false,
+            color: '#FFA200',
+            marker: {
+                enabled: true,
+                symbol: 'circle'
+            },
+            data: [[intradayHighX, result.ChartMax]]
+        }
+                ],
+                plotOptions: {
+                    column: {
+                        dataGrouping: {
+                            groupPixelWidth: 1
+                        },
+                        pointPadding: 0,
+                        borderWidth: 0,
+                        groupPadding: 0
+                    },
+                    series: {
+                        dataGrouping: {
+                            groupPixelWidth: 1
+                        },
+                        pointPadding: 0,
+                        groupPadding: 0,
+                        borderWidth: 0,
+                        connectNulls: true,
+                        shadow: false,
+                        marker: {
+                            enabled: false,
+                            states: {
+                                hover: {
+                                    enabled: false,
+                                    lineWidth: 1
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function onSummaryErrorReceived(result) {
+            $("#chartcontainer").text("The chart is currently unavailable. In many cases refreshing the page will display the chart.");
+        }
+
+        function onChartErrorReceived(result) {
+            $("#chartcontainer").text("The chart is currently unavailable. In many cases refreshing the page will display the chart.");
+        }
+
+        function GetChartData() {
+            $.ajax({
+                type: "POST",
+                url: "/callbacks/NLSHandler2.ashx",
+                data: "msg=min&symbol=GOOGL&qesymbol=GOOGL",
+                    dataType: 'json',
+                    success: onDataReceived,
+                    error: onChartErrorReceived
+                });
+            }
+
+        function GetSummaryData() {
+            $.ajax({
+                type: "POST",
+                url: "/callbacks/NLSHandler2.ashx",
+                data: "msg=min&symbol=GOOGL&qesymbol=GOOGL",
+                    dataType: 'json',
+                    success: onSummaryDataReceived,
+                    error: onSummaryErrorReceived
+                });
+            }
+
+        function onSummaryDataReceived(result) {
+            if (typeof result.error != "undefined") {
+                onSummaryErrorReceived(result);
+                return;
+            }
+            var changed = false;
+            if (intradayHigh !== result.result.high) {
+                intradayHigh = result.result.high;
+                changed = true;
+            }
+            if (intradayLow !== result.result.low) {
+                intradayLow = result.result.low;
+                changed = true;
+            }
+
+            if (changed && !!intradayChart) {
+                //update the plot lines
+                intradayChart.yAxis[0].removePlotLine("High");
+                intradayChart.yAxis[0].removePlotLine("Low");
+                intradayChart.yAxis[0].addPlotLine(
+    {
+        color: 'green',
+        width: 2,
+        value: intradayHigh,
+        id: "High",
+        zIndex: null
+    });
+
+                intradayChart.yAxis[0].addPlotLine(
+    {
+        color: 'red',
+        width: 1,
+        value: intradayLow,
+        id: "Low",
+        zIndex: 10
+    });
+            }
+        }
+
+        function UpdateChart() {
+            if (!stopUpdating) {
+
+                $.ajax({
+                    type: "POST",
+                    url: "/callbacks/NLSHandler2.ashx",
+                        data: "msg=min&max=1&symbol=GOOGL",
+                        dataType: 'json',
+                        error: onChartErrorReceived,
+                        success: function (result) {
+                            var dpo, upo, vo, ih, il;
+
+                            if (intradayChart != null)
+                                dpo = intradayChart.series[1], upo = intradayChart.series[2], vo = intradayChart.series[0], ih = intradayChart.series[3], il = intradayChart.series[4];
+
+                            if (!!upo && !!dpo && !!vo && ih && il) {
+                                //Adding the point doesn't show the fill for the area.
+                                //populateArrays(result.data, result.ChartMin, result.ChartMax, result.PreviousClose); //also does maxvol
+                                if (!updateArrays(result.data, result.ChartMin, result.ChartMax, result.PreviousClose)) {
+                                    //newest point is identical to last stored point, don't bother updating stop here
+                                    return;
+                                }
+                                upo.setData(superpricedata, false);
+                                dpo.setData(subpricedata, false);
+                                vo.setData(volumedata, false);
+                                ih.setData([[intradayHighX, result.ChartMax]], false);
+                                il.setData([[intradayLowX, result.ChartMin]], false);
+
+                                ypadding = Math.round(10 * (result.ChartMax - result.ChartMin)) / 250; //an attempt to be smarter about padding.
+                                ymin = result.ChartMin - ypadding;
+                                ymax = result.ChartMax + ypadding;
+                                if (result.PreviousClose <= result.ChartMin) {
+                                    ymin = result.PreviousClose - ypadding;
+                                }
+                                if (result.PreviousClose >= result.ChartMax) {
+                                    ymax = result.PreviousClose + ypadding;
+                                }
+
+                                intradayChart.yAxis[0].setExtremes(ymin, ymax, false);
+                                intradayChart.yAxis[1].setExtremes(0, maxvol, false);
+                                intradayChart.redraw();
+                            }
+                        }
+                    });
+
+
+                }
+            }
+
+        function StopUpdating() {
+            stopUpdating = true;
+        }
+
+        return {
+            updateChart: UpdateChart,
+            stopUpdating: StopUpdating,
+            getChartData: GetChartData
+        };
+    }();
+
+        chartScriptLoaded.resolve();
+
+        var nasdaqRealTimePage = function () {
+
+            // number formatting function
+            // copyright Stephen Chapman 24th March 2006, 10th February 2007
+            // permission to use this function is granted provided
+            // that this copyright notice is retained intact
+
+            function formatNumber(num, dec, pnt) {
+
+                var thou = ',';
+                var curr1 = '';
+                var curr2 = '';
+                var n1 = '';
+                var n2 = '';
+
+                var x = Math.round(num * Math.pow(10, dec)); if (x >= 0) n1 = n2 = ''; var y = ('' + Math.abs(x)).split(''); var z = y.length - dec; if (z < 0) z--; for (var i = z; i < 0; i++) y.unshift('0'); y.splice(z, 0, pnt); if (y[0] == pnt) y.unshift('0'); while (z > 3) { z -= 3; y.splice(z, 0, thou); } var r = curr1 + n1 + y.join('') + n2 + curr2;
+                return r;
+            }
+
+            function SetLastSale(Input) {
+                if (Input.length == 0) {
+                    SymbolLastSale = "N";
+                    document.getElementById('quotes_content_left__LastSale').innerHTML = "GOOGL 's Nasdaq Last Sale has not been updated";
+                    document.getElementById('_updownImage').style.display = "none";
+                    document.getElementById('quotes_content_left__NetChange').style.display = "none";
+    document.getElementById('quotes_content_left__PctChange').style.display = "none";
+                }
+                else {
+                    var changedispay;
+                    document.getElementById('quotes_content_left__LastSale').innerHTML = stripzeros(Input);
+        changedispay = SetNetAndPctChange(Input, '793.6');
+                    document.title = "GOOGL :$" + stripzeros(Input) + " " + changedispay;
+
+                    SetQuoteBarLastSaleNetAndPctChange(Input, '793.6');
+                }
+            }
+
+            function limitDecimalPlaces(originalNumber, placesToLimitTo) {
+                originalNumber = originalNumber.toString();
+                var decimalIndex = originalNumber.search(/\./);
+
+                //if there was a decimal point, then go from the start of the string
+                //to one more after the decimal index (because we want the decimal) plus
+                //the placesToLimitTo that was passed in
+                var limitedToTwoDecimal;
+                if (decimalIndex >= -1) {
+                    limitedToTwoDecimal = originalNumber.substring(0, decimalIndex + 1 + placesToLimitTo);
+                }
+                else {
+                    limitedToTwoDecimal = originalNumber;
+                }
+
+                return (limitedToTwoDecimal);
+            }
+
+            function SetNetAndPctChange(lastsale, previousClose) {
+                var netChange = Math.round((lastsale - previousClose) * 10000) / 10000;
+                var pctChange;
+                if (lastsale == 0) {
+                    pctChange = '';
+                    netChange = 'N/A';
+                }
+                else if (previousClose == 0) {
+                    pctChange = '';
+                    netChange = 'N/A';
+                }
+                else {
+                    pctChange = (netChange / previousClose) * 100;
+                    pctChange = limitDecimalPlaces(pctChange, 2);
+                }
+
+                var Output;
+                var image = document.getElementById('_updownImage');
+
+                if (netChange == 0 || netChange == 0.00) {
+                    netChange = 'unch';
+                    pctChange = '';
+                    document.getElementById('_updownImage').innerHTML = "";
+                    document.getElementById('_updownImage').setAttribute("class", "");
+                    Output = netChange;
+                }
+                else if (netChange > 0) {
+                    //image.setAttribute("src",'http://content.nasdaq.com/images/greenArrowSmall_tp.gif' );
+                    document.getElementById('_updownImage').innerHTML = "&#9650;";
+                    document.getElementById('_updownImage').setAttribute("class", "green");
+                    Output = netChange + " (" + pctChange + "%)";
+                    pctChange = pctChange + '%';
+                }
+                else if (netChange < 0) {
+                    //image.setAttribute("src",'http://content.nasdaq.com/images/redArrowSmall_tp.gif' );
+                    document.getElementById('_updownImage').innerHTML = "&#9660;";
+                    document.getElementById('_updownImage').setAttribute("class", "red");
+                    Output = netChange + " (" + pctChange + "%)";
+                    netChange = (-1) * netChange;
+                    pctChange = (-1) * pctChange + '%';
+                }
+
+                document.getElementById('quotes_content_left__NetChange').innerHTML = netChange;
+        document.getElementById('quotes_content_left__PctChange').innerHTML = pctChange;
+
+        return Output;
+    }
+
+            function SetVolume(Input) {
+                document.getElementById('quotes_content_left__Volume').innerHTML = formatNumber(Input, 0, '');
+    }
+
+    function SetMarketTime(Input) {
+        document.getElementById('quotes_content_left__TradeTimeStamp').innerHTML = Input;
+	
+    SetQuoteBarTimeStamp(Input);
+}
+            function SetMarketStatus(Input) {
+                if (Input == "C") {
+                    document.getElementById('quotes_content_left__MarketStatus').innerHTML = "Market Closed";
+        } else {
+            document.getElementById('quotes_content_left__MarketStatus').innerHTML = "Market Open";
+        }
+    }
+
+            function SetTodaysHighAndLow(TodaysHigh, TodaysLow) {
+                if (TodaysLow.length == 0)
+                { document.getElementById('quotes_content_left__TodaysLow').innerHTML = "N/A"; }
+        else { document.getElementById('quotes_content_left__TodaysLow').innerHTML = "$" + TodaysLow; }
+
+        if (TodaysHigh.length == 0)
+        { document.getElementById('quotes_content_left__TodaysHigh').innerHTML = "N/A"; }
+    else { document.getElementById('quotes_content_left__TodaysHigh').innerHTML = "$" + TodaysHigh; }
+}
+
+            function stripzeros(price) {
+                var lastsale = price;
+                var splitvalue = lastsale.split('.');
+                if (splitvalue.length == 1)
+                    return price;
+                var splitarray = splitvalue[1].split("");
+                var endindex = 0;
+                for (var i = splitvalue[1].length - 1 ; i > 1; i--) {
+                    if (splitarray[i] != 0)
+                    { break; }
+                }
+                var change = splitvalue[1].substring(0, i + 1);
+                if (change.length == 1)
+                { change = change + "0"; }
+                return (splitvalue[0] + "." + change);
+            }
+
+
+            function UpdateQuoteData() {
+                $.ajax({
+                    type: "POST",
+                    url: "/aspx/NLS/NLSHandler2.ashx",
+                    data: "msg=Last&symbol=GOOGL&qesymbol=GOOGL",
+            dataType: 'json',
+            success: function (data) {
+                if (!data.error) {
+                    SetLastSale(data.result.Price.toString());
+                    SetVolume(data.result.totVol.toString());
+                    SetTodaysHighAndLow(data.result.high.toString(), data.result.low.toString());
+                    SetMarketStatus(data.result.MarketStatus.toString());
+                    if (data.result.MarketStatus.toString() == "C") {
+                        SetMarketTime(data.result.tradedate.toString());
+                    } else {
+                        SetMarketTime(data.result.ServerTime.toString());
+                    }
+                }
+            }
+        });
+    }
+
+            return {
+                updateQuoteData: UpdateQuoteData
+            };
+
+        }();
+</script>
+<script type="text/javascript">
+    var tooltiptimer = "";
+    function showDelayedToolTip(eleID) {
+        tooltiptimer = setTimeout("showToolTip('" + eleID + "');", 1000);
+    }
+    function showToolTip(eleID) {
+        document.getElementById(eleID).getElementsByTagName("span")[0].style.visibility = "visible";
+        tooltiptimer = "";
+    }
+    function hideToolTip(eleID) {
+        if (tooltiptimer != "") {
+            clearTimeout(tooltiptimer);
+            tooltiptimer = "";
+        }
+        document.getElementById(eleID).getElementsByTagName("span")[0].style.visibility = "hidden";
+    }
+</script>
+<!-- END page bottom script -->
+
+</body>	
+</html>
