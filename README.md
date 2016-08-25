@@ -8,8 +8,8 @@
 `make`
 
 2) Without make, run in terminal:
-`javac RequestHTTP.java`
-`java RequestHTTP`
+`javac RequestHTTP.java
+java RequestHTTP`
 ________________________________________________________________
 
 The class example grabs the Nasdaq raw html response for Alphabet (Googl), but 
